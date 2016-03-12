@@ -7,43 +7,133 @@
 \contentsline {subsection}{\numberline {1.4}Riferimenti}{1}{subsection.1.4}
 \contentsline {subsubsection}{\numberline {1.4.1}Normativi}{1}{subsubsection.1.4.1}
 \contentsline {subsubsection}{\numberline {1.4.2}Informativi}{1}{subsubsection.1.4.2}
-\contentsline {section}{\numberline {2}Comunicazione}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}Esterna}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Interna}{2}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Composizione e-mail}{2}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Destinatario}{2}{subsubsection.2.3.1}
-\contentsline {subsection}{\numberline {2.4}Mittente}{2}{subsection.2.4}
-\contentsline {subsubsection}{\numberline {2.4.1}Oggetto}{2}{subsubsection.2.4.1}
-\contentsline {subsection}{\numberline {2.5}Corpo}{2}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Allegati}{2}{subsection.2.6}
-\contentsline {section}{\numberline {3}Riunioni}{3}{section.3}
-\contentsline {subsection}{\numberline {3.1}Frequenza}{3}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Convocazione riunione}{3}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Interna}{3}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Esterna}{3}{subsubsection.3.2.2}
-\contentsline {subsection}{\numberline {3.3}Svolgimento riunione}{3}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Esterna}{3}{subsubsection.3.3.1}
-\contentsline {subsection}{\numberline {3.4}Verbale}{3}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Riunione interna}{3}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Riunione esterna}{4}{subsubsection.3.4.2}
-\contentsline {section}{\numberline {4}Documentazione}{4}{section.4}
-\contentsline {subsection}{\numberline {4.1}Template}{4}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Struttura del documento}{4}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Prima pagina}{4}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Registro delle modifiche}{4}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}Indici}{4}{subsubsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.4}Formattazione generale delle pagine}{5}{subsubsection.4.2.4}
-\contentsline {subsection}{\numberline {4.3}Norme tipografiche}{5}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Stile del testo}{5}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Punteggiatura}{5}{subsubsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3}Formati}{5}{subsubsection.4.3.3}
-\contentsline {subsubsection}{\numberline {4.3.4}Composizione del testo}{6}{subsubsection.4.3.4}
-\contentsline {subsubsection}{\numberline {4.3.5}Sigle}{6}{subsubsection.4.3.5}
-\contentsline {subsection}{\numberline {4.4}Componenti grafiche}{6}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Tabelle}{6}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Immagini}{6}{subsubsection.4.4.2}
-\contentsline {subsection}{\numberline {4.5}Classificazione dei documenti}{6}{subsection.4.5}
-\contentsline {subsubsection}{\numberline {4.5.1}Documenti formali}{6}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}Documenti informali}{6}{subsubsection.4.5.2}
-\contentsline {subsubsection}{\numberline {4.5.3}Glossario}{7}{subsubsection.4.5.3}
-\contentsline {subsection}{\numberline {4.6}Versionamento}{7}{subsection.4.6}
+\contentsline {section}{\numberline {2}Processi primari}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Processo di sviluppo}{2}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Analisi dei requisiti}{2}{subsubsection.2.1.1}
+\contentsline {paragraph}{\numberline {2.1.1.1}Studio di fattibilita}{2}{paragraph.2.1.1.1}
+\contentsline {paragraph}{\numberline {2.1.1.2}Requisiti}{2}{paragraph.2.1.1.2}
+\contentsline {paragraph}{\numberline {2.1.1.3}Documentazione dei requisiti}{2}{paragraph.2.1.1.3}
+\contentsline {paragraph}{\numberline {2.1.1.4}Casi d'uso}{2}{paragraph.2.1.1.4}
+\contentsline {paragraph}{\numberline {2.1.1.5}Tracciamento dei requisiti}{2}{paragraph.2.1.1.5}
+\contentsline {subsubsection}{\numberline {2.1.2}Progettazione}{2}{subsubsection.2.1.2}
+\contentsline {paragraph}{\numberline {2.1.2.1}Diagrammi UML}{2}{paragraph.2.1.2.1}
+\contentsline {paragraph}{\numberline {2.1.2.2}Design pattern}{2}{paragraph.2.1.2.2}
+\contentsline {paragraph}{\numberline {2.1.2.3}Classi di verifica}{2}{paragraph.2.1.2.3}
+\contentsline {paragraph}{\numberline {2.1.2.4}Stile di progettazione}{2}{paragraph.2.1.2.4}
+\contentsline {subsubsection}{\numberline {2.1.3}Progettazione architetturale}{2}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Progettazione architetturale di dettaglio}{2}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.5}Codifica e convenzioni}{2}{subsubsection.2.1.5}
+\contentsline {paragraph}{\numberline {2.1.5.1}Linguaggi di codifica}{2}{paragraph.2.1.5.1}
+\contentsline {paragraph}{\numberline {2.1.5.2}Framework e librerie}{2}{paragraph.2.1.5.2}
+\contentsline {paragraph}{\numberline {2.1.5.3}Convenzioni di codifica}{2}{paragraph.2.1.5.3}
+\contentsline {paragraph}{\numberline {2.1.5.4}File HTML}{2}{paragraph.2.1.5.4}
+\contentsline {paragraph}{\numberline {2.1.5.5}Nomenclatura}{2}{paragraph.2.1.5.5}
+\contentsline {paragraph}{\numberline {2.1.5.6}Intestazione di un file}{2}{paragraph.2.1.5.6}
+\contentsline {paragraph}{\numberline {2.1.5.7}Commenti}{2}{paragraph.2.1.5.7}
+\contentsline {paragraph}{\numberline {2.1.5.8}Esecuzione dei test di unit\IeC {\`a}}{2}{paragraph.2.1.5.8}
+\contentsline {section}{\numberline {3}Processi di supporto}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Processo di documentazione}{3}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Template}{3}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Versionamento}{3}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Struttura dei documenti}{3}{subsubsection.3.1.3}
+\contentsline {paragraph}{\numberline {3.1.3.1}Prima pagina}{3}{paragraph.3.1.3.1}
+\contentsline {paragraph}{\numberline {3.1.3.2}Registro delle modifiche}{3}{paragraph.3.1.3.2}
+\contentsline {paragraph}{\numberline {3.1.3.3}Indice}{3}{paragraph.3.1.3.3}
+\contentsline {paragraph}{\numberline {3.1.3.4}Formattazione delle pagine}{3}{paragraph.3.1.3.4}
+\contentsline {subsubsection}{\numberline {3.1.4}Classificazione dei documenti}{3}{subsubsection.3.1.4}
+\contentsline {paragraph}{\numberline {3.1.4.1}Documenti informali}{3}{paragraph.3.1.4.1}
+\contentsline {paragraph}{\numberline {3.1.4.2}Documenti formali}{3}{paragraph.3.1.4.2}
+\contentsline {paragraph}{\numberline {3.1.4.3}Verbale}{3}{paragraph.3.1.4.3}
+\contentsline {subsubsection}{\numberline {3.1.5}Norme tipografiche}{3}{subsubsection.3.1.5}
+\contentsline {paragraph}{\numberline {3.1.5.1}Punteggiatura}{3}{paragraph.3.1.5.1}
+\contentsline {paragraph}{\numberline {3.1.5.2}Stile del testo}{3}{paragraph.3.1.5.2}
+\contentsline {paragraph}{\numberline {3.1.5.3}Composizione del testo}{3}{paragraph.3.1.5.3}
+\contentsline {paragraph}{\numberline {3.1.5.4}Formati ricorrenti}{3}{paragraph.3.1.5.4}
+\contentsline {paragraph}{\numberline {3.1.5.5}Sigle}{3}{paragraph.3.1.5.5}
+\contentsline {subsubsection}{\numberline {3.1.6}Componenti grafiche}{3}{subsubsection.3.1.6}
+\contentsline {paragraph}{\numberline {3.1.6.1}Immagini}{3}{paragraph.3.1.6.1}
+\contentsline {paragraph}{\numberline {3.1.6.2}Tabelle}{3}{paragraph.3.1.6.2}
+\contentsline {subsubsection}{\numberline {3.1.7}Procedure di avanzamento di un documento}{3}{subsubsection.3.1.7}
+\contentsline {subsection}{\numberline {3.2}Processo di verifica}{3}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Tecniche di analisi}{3}{subsubsection.3.2.1}
+\contentsline {paragraph}{\numberline {3.2.1.1}Analisi statica}{3}{paragraph.3.2.1.1}
+\contentsline {subparagraph}{\numberline {3.2.1.1.1}Walktrough}{3}{subparagraph.3.2.1.1.1}
+\contentsline {subparagraph}{\numberline {3.2.1.1.2}Inspection}{3}{subparagraph.3.2.1.1.2}
+\contentsline {paragraph}{\numberline {3.2.1.2}Analisi dinamica}{3}{paragraph.3.2.1.2}
+\contentsline {paragraph}{\numberline {3.2.1.3}Test}{4}{paragraph.3.2.1.3}
+\contentsline {subparagraph}{\numberline {3.2.1.3.1}Test di unit\IeC {\`a}}{4}{subparagraph.3.2.1.3.1}
+\contentsline {subparagraph}{\numberline {3.2.1.3.2}Test di integrazione}{4}{subparagraph.3.2.1.3.2}
+\contentsline {subparagraph}{\numberline {3.2.1.3.3}Test di sistema}{4}{subparagraph.3.2.1.3.3}
+\contentsline {subparagraph}{\numberline {3.2.1.3.4}Test di regrassione}{4}{subparagraph.3.2.1.3.4}
+\contentsline {subparagraph}{\numberline {3.2.1.3.5}Test di accettazione}{4}{subparagraph.3.2.1.3.5}
+\contentsline {subsubsection}{\numberline {3.2.2}Verifica dei documenti}{4}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Verifica dei diagrammi}{4}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Verifica del codice}{4}{subsubsection.3.2.4}
+\contentsline {paragraph}{\numberline {3.2.4.1}Analisi statica}{4}{paragraph.3.2.4.1}
+\contentsline {paragraph}{\numberline {3.2.4.2}Analisi dinamica}{4}{paragraph.3.2.4.2}
+\contentsline {section}{\numberline {4}Processi organizzativi}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Gestione dei processi}{4}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Attivit\IeC {\`a}}{4}{subsubsection.4.1.1}
+\contentsline {paragraph}{\numberline {4.1.1.1}Gestione delle comunicazioni}{4}{paragraph.4.1.1.1}
+\contentsline {subparagraph}{\numberline {4.1.1.1.1}Comunicazione interna}{4}{subparagraph.4.1.1.1.1}
+\contentsline {subparagraph}{\numberline {4.1.1.1.2}Comunicazione esterna}{4}{subparagraph.4.1.1.1.2}
+\contentsline {subparagraph}{\numberline {4.1.1.1.3}Composizione email}{4}{subparagraph.4.1.1.1.3}
+\contentsline {paragraph}{\numberline {4.1.1.2}Gestione delle riunioni}{5}{paragraph.4.1.1.2}
+\contentsline {subparagraph}{\numberline {4.1.1.2.1}Riunioni interne}{5}{subparagraph.4.1.1.2.1}
+\contentsline {subparagraph}{\numberline {4.1.1.2.2}Riunioni esterne}{6}{subparagraph.4.1.1.2.2}
+\contentsline {paragraph}{\numberline {4.1.1.3}Gestione del sistema dei task{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip $_G$}}{6}{paragraph.4.1.1.3}
+\contentsline {paragraph}{\numberline {4.1.1.4}Gestione delle \textit {milestone}{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip $_G$}}{6}{paragraph.4.1.1.4}
+\contentsline {paragraph}{\numberline {4.1.1.5}Gestione dei \textit {task}{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip $_G$}}{6}{paragraph.4.1.1.5}
+\contentsline {paragraph}{\numberline {4.1.1.6}Gestione dello svolgimento dei \textit {task}{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip $_G$}}{6}{paragraph.4.1.1.6}
+\contentsline {subsubsection}{\numberline {4.1.2}Procedure}{7}{subsubsection.4.1.2}
+\contentsline {paragraph}{\numberline {4.1.2.1}Generazione di una milestone}{7}{paragraph.4.1.2.1}
+\contentsline {paragraph}{\numberline {4.1.2.2}Assegnazione di un task}{7}{paragraph.4.1.2.2}
+\contentsline {paragraph}{\numberline {4.1.2.3}Svolgimento di un task}{7}{paragraph.4.1.2.3}
+\contentsline {paragraph}{\numberline {4.1.2.4}Rilevazione dei rischi}{9}{paragraph.4.1.2.4}
+\contentsline {paragraph}{\numberline {4.1.2.5}Ruoli di Progetto}{9}{paragraph.4.1.2.5}
+\contentsline {subparagraph}{\numberline {4.1.2.5.1}Responsabile di Progetto}{9}{subparagraph.4.1.2.5.1}
+\contentsline {subparagraph}{\numberline {4.1.2.5.2}Amministratore di Progetto}{9}{subparagraph.4.1.2.5.2}
+\contentsline {subparagraph}{\numberline {4.1.2.5.3}Analista}{9}{subparagraph.4.1.2.5.3}
+\contentsline {subsubsection}{\numberline {4.1.3}Norme}{9}{subsubsection.4.1.3}
+\contentsline {subparagraph}{\numberline {4.1.3.0.4}Progettista}{9}{subparagraph.4.1.3.0.4}
+\contentsline {subparagraph}{\numberline {4.1.3.0.5}Programmatore}{10}{subparagraph.4.1.3.0.5}
+\contentsline {subparagraph}{\numberline {4.1.3.0.6}Verificatore}{10}{subparagraph.4.1.3.0.6}
+\contentsline {subparagraph}{\numberline {4.1.3.0.7}Interne}{10}{subparagraph.4.1.3.0.7}
+\contentsline {subparagraph}{\numberline {4.1.3.0.8}Esterne}{10}{subparagraph.4.1.3.0.8}
+\contentsline {paragraph}{\numberline {4.1.3.1}Comunicazioni}{10}{paragraph.4.1.3.1}
+\contentsline {subparagraph}{\numberline {4.1.3.1.1}Comunicazioni interne}{10}{subparagraph.4.1.3.1.1}
+\contentsline {subparagraph}{\numberline {4.1.3.1.2}Comunicazioni esterne}{10}{subparagraph.4.1.3.1.2}
+\contentsline {paragraph}{\numberline {4.1.3.2}Composizione email}{10}{paragraph.4.1.3.2}
+\contentsline {subparagraph}{\numberline {4.1.3.2.1}Mittente}{10}{subparagraph.4.1.3.2.1}
+\contentsline {subparagraph}{\numberline {4.1.3.2.2}Destinatario}{10}{subparagraph.4.1.3.2.2}
+\contentsline {subparagraph}{\numberline {4.1.3.2.3}Corpo}{10}{subparagraph.4.1.3.2.3}
+\contentsline {subparagraph}{\numberline {4.1.3.2.4}Allegati}{10}{subparagraph.4.1.3.2.4}
+\contentsline {paragraph}{\numberline {4.1.3.3}Gestione ticket e milestones}{10}{paragraph.4.1.3.3}
+\contentsline {subparagraph}{\numberline {4.1.3.3.1}Creazione e gestione dei ticket}{10}{subparagraph.4.1.3.3.1}
+\contentsline {subparagraph}{\numberline {4.1.3.3.2}Creazione delle milestone}{10}{subparagraph.4.1.3.3.2}
+\contentsline {subparagraph}{\numberline {4.1.3.3.3}Esecuzione dei compiti}{10}{subparagraph.4.1.3.3.3}
+\contentsline {subparagraph}{\numberline {4.1.3.3.4}Chiusura della milestone}{10}{subparagraph.4.1.3.3.4}
+\contentsline {subsubsection}{\numberline {4.1.4}Norme generali}{10}{subsubsection.4.1.4}
+\contentsline {paragraph}{\numberline {4.1.4.1}Ambiente di sviluppo}{10}{paragraph.4.1.4.1}
+\contentsline {paragraph}{\numberline {4.1.4.2}Ruoli di progetto}{10}{paragraph.4.1.4.2}
+\contentsline {subparagraph}{\numberline {4.1.4.2.1}Responsabile di progetto}{10}{subparagraph.4.1.4.2.1}
+\contentsline {subparagraph}{\numberline {4.1.4.2.2}Amministratore}{10}{subparagraph.4.1.4.2.2}
+\contentsline {subparagraph}{\numberline {4.1.4.2.3}Analista}{11}{subparagraph.4.1.4.2.3}
+\contentsline {subparagraph}{\numberline {4.1.4.2.4}Progettista}{11}{subparagraph.4.1.4.2.4}
+\contentsline {subparagraph}{\numberline {4.1.4.2.5}Verificatore}{11}{subparagraph.4.1.4.2.5}
+\contentsline {subparagraph}{\numberline {4.1.4.2.6}Programmatore}{11}{subparagraph.4.1.4.2.6}
+\contentsline {paragraph}{\numberline {4.1.4.3}Struttura del repository}{11}{paragraph.4.1.4.3}
+\contentsline {subparagraph}{\numberline {4.1.4.3.1}Repository per la documentazione}{11}{subparagraph.4.1.4.3.1}
+\contentsline {subparagraph}{\numberline {4.1.4.3.2}Repository per il codice}{11}{subparagraph.4.1.4.3.2}
+\contentsline {subparagraph}{\numberline {4.1.4.3.3}Norme sull'utilizzo del servizio}{11}{subparagraph.4.1.4.3.3}
+\contentsline {subsubsection}{\numberline {4.1.5}Strumenti}{11}{subsubsection.4.1.5}
+\contentsline {paragraph}{\numberline {4.1.5.1}Sistema operativo}{11}{paragraph.4.1.5.1}
+\contentsline {paragraph}{\numberline {4.1.5.2}Coordinamento}{11}{paragraph.4.1.5.2}
+\contentsline {subparagraph}{\numberline {4.1.5.2.1}Teamwork?}{11}{subparagraph.4.1.5.2.1}
+\contentsline {subparagraph}{\numberline {4.1.5.2.2}Dropbox}{11}{subparagraph.4.1.5.2.2}
+\contentsline {subparagraph}{\numberline {4.1.5.2.3}Repository GIT}{11}{subparagraph.4.1.5.2.3}
+\contentsline {paragraph}{\numberline {4.1.5.3}Ambiente documentale}{11}{paragraph.4.1.5.3}
+\contentsline {subparagraph}{\numberline {4.1.5.3.1}Stesura documenti}{11}{subparagraph.4.1.5.3.1}
+\contentsline {subparagraph}{\numberline {4.1.5.3.2}Script}{11}{subparagraph.4.1.5.3.2}
+\contentsline {paragraph}{\numberline {4.1.5.4}Pianificazione delle attivit\IeC {\`a}}{11}{paragraph.4.1.5.4}
+\contentsline {paragraph}{\numberline {4.1.5.5}Diagrammi UML}{11}{paragraph.4.1.5.5}
