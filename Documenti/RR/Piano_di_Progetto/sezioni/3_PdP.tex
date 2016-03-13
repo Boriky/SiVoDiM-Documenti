@@ -1,0 +1,144 @@
+\section{Analisi dei rischi}
+Per tutta la durata dello sviluppo del progetto, è sempre possibile il verificarsi di eventi che possono rallentare o far deviare l'andamento delle fasi di lavoro pianificate. Per evitare di incorrere in queste problematiche viene eseguita un'analisi dei rischi, che prevede i seguenti punti:
+\begin{itemize}
+\item Identificazione del rischio;
+\item Calcolo della probabilità che si verifichi;
+\item Stima della gravità in caso di occorrenza;
+\item Identificazione di un metodo di controllo che possa informare per tempo i componenti del gruppo sul verificarsi del rischio calcolato;
+\item Pianificazione di contromisure che possano gestire o prevenire l'avverarsi del problema.
+\end{itemize}
+Di seguito sono descritti i rischi identificati, raggruppati per ambito in sotto-sezioni distinte.
+
+%---------------------------------------------------------------------------------
+\subsection{Rischi relativi ai requisiti}
+
+\subsubsection{Requisito non rilevato}
+\label{sec:ReqNonRil}
+L'analisi dei requisiti potrebbe non essere completa e tralasciare alcuni requisiti ritenuti importanti dal proponente\G. Dato che il capitolato lascia parecchia libertà al \textit{team}, non specificando quale dovrà essere l'applicazione \textit{mobile} da sviluppare (si veda lo Studio di Fattibilità v1.0.0), sarà molto probabile incorrere in questa problematica. 
+\begin{itemize}
+\item \textbf{Probabilità}: Alta;
+\item \textbf{Grado di pericolosità} Alto;
+\item \textbf{Controllo}: Per verificare che i requisiti rilevati soddisfino il proponente\G, durante la fase di analisi vengono fatti degli incontri - se possibile - o in alternativa lo si contatta attraverso la mail ufficiale, chiedendo conferma di quanto ricavato;
+\item \textbf{Contromisure}: Non vi è modo di eliminare del tutto questo rischio, ma il colloquio con il proponente\G\ lo abbassa significativamente. Per minimizzarlo si farà particolare attenzione nella fase di verifica del documento dell'Analisi dei Requisiti.
+\end{itemize}
+
+%---------------------------------------------------------------------------------
+\subsection{Rischi tecnologici}
+
+\subsubsection{Scarsa conoscenza delle tecnologie scelte}
+\label{sec:ScarsTec}
+I membri del \textit{team} non hanno esperienze sulla tecnologia TTS\G\ né sullo sviluppo in ambiente \textit{mobile}. Questo ritarderà la fase iniziale in cui è necessario inserire una fase di apprendimento.
+\begin{itemize}
+\item \textbf{Probabilità}: Alta;
+\item \textbf{Grado di pericolosità}: Medio;
+\item \textbf{Controllo}: il Responsabile di Progetto ha il compito di verificare il grado di conoscenza di ciascun membro del \textit{team} sulle tecnologie necessarie al completamento del suo ruolo;
+\item \textbf{Contromisure}: L'unico modo di procedere è reperire informazioni sugli argomenti in questione e provvedere affinché ciascun componente del \textit{team} possa acquisire sufficienti informazioni. Non vi è modo di non spendere del tempo per questa fase.
+\end{itemize}
+
+\subsubsection{Malfunzionamento del servizio di personalizzazione della voce}
+\label{sec:PMalf}
+Mivoq srl mette a disposizione un servizio di personalizzazione della voce, che permette all'utente di creare la propria voce digitale, utilizzabile in seguito dal motore di sintesi. Questo servizio è offerto attraverso una piattaforma web, e al momento è in fase di \textit{beta testing}\G. L'utilizzo di un servizio sperimentale e non ancora testato può costituire un rischio per il progetto.
+\begin{itemize}
+\item \textbf{Probabilità}: Bassa;
+\item \textbf{Grado di pericolosità}: Bassa;
+\item \textbf{Controllo}: Se questo servizio verrà utilizzato dall'applicazione che deve essere sviluppata, saranno effettuati dei test mirati a verificare il corretto funzionamento del servizio;
+\item \textbf{Contromisure}: In caso di problemi di qualsiasi genere, riguardanti questo servizio, Mivoq srl si impegna a fornire assistenza al \textit{team}. 
+\end{itemize} 
+
+\subsubsection{Problemi Software}
+\label{sec:PSW}
+Per migliorare la produttività si fa uso di \textit{software}\G\ esterno di vario genere, che potrebbe corrompersi, risultare insicuro o rivelarsi inaffidabile.
+\begin{itemize}
+\item \textbf{Probabilità}: Bassa;
+\item \textbf{Grado di pericolosità}: Medio;
+\item \textbf{Controllo}: Giornalmente l'Amministratore del gruppo deve controllare il corretto funzionamento degli applicativi web utilizzati. In aggiunta ogni membro del \textit{team} è tenuto a segnalare immediatamente eventuali malfunzionamenti, nel caso si verificassero;
+\item \textbf{Contromisure}: In caso un membro del gruppo riscontrasse problemi di funzionamento negli applicativi utilizzati in locale, è tenuto all'aggiornamento o reinstallazione degli stessi. \\ 
+Per minimizzare i problemi legati al rischio che venissero meno i servizi web utilizzati, invece, vengono eseguite periodicamente delle copie di backup dei dati remoti.
+\end{itemize}
+
+\subsubsection{Problemi Hardware}
+\label{sec:PHW}
+Il progetto è sviluppato su macchine che i membri del \textit{team} utilizza anche per scopi personali. Sono possibili guasti e danneggiamenti, che possono portare alla perdita di dati.
+\begin{itemize}
+\item \textbf{Probabilità}: Bassa;
+\item \textbf{Grado di pericolosità}: Medio;
+\item \textbf{Controllo}: Ciascun componente del \textit{team} ha cura della propria attrezzatura di lavoro, e la controlla periodicamente;
+\item \textbf{Contromisure}: Per minimizzare la possibilità di perdere dati, ogni membro del gruppo deve eseguire il \textit{push} sul \textit{repository\G} al termine di ogni sessione lavorativa. \\
+In caso un componente del \textit{team} fosse impossibilitato a lavorare con la propria macchina a seguito di un guasto, egli potrà utilizzare il proprio \textit{account} di laboratorio nella sede universitaria, per il tempo necessario alla riparazione della stessa.
+\end{itemize}
+
+%---------------------------------------------------------------------------------
+\subsection{Rischi riguardanti il gruppo}
+
+\subsubsection{Assenze per problemi personali o di salute}
+\label{sec:Assenze}
+Ogni componente del gruppo potrebbe ammalarsi o doversi assentare per impegni personali, dedicando meno tempo al progetto di quanto previsto, in certe occasioni. Ci sono anche studenti pendolari che potrebbero avere problemi di trasporto.
+\begin{itemize}
+\item \textbf{Probabilità}: Media;
+\item \textbf{Grado di pericolosità}: Medio;
+\item \textbf{Controllo}: Ogni impegno personale deve essere comunicato prontamente al Responsabile di Progetto, con quanto più preavviso possibile. Lo stesso vale in caso di imprevisti;
+\item \textbf{Contromisure}: Non è possibile eliminare il rischio di imprevisti e malattia, ma è possibile minimizzarlo con opportune precauzioni da parte dei componenti del \textit{team}. \\
+Il Responsabile di progetto a fronte di una comunicazione di impegni vari o problematiche, deve al più presto stilare un novo piano per sopperire alla mancanza della persona.
+\end{itemize}
+
+\subsubsection{Incomprensioni fra componenti}
+\label{sec:Incomp}
+Il \textit{team} è formato da sei persone con esperienze diverse ed eterogenee, che sono alla prima esperienza di lavoro collaborativo così numeroso. Ne consegue il rischio di incomprensioni o dissidi che potrebbero venire a formarsi, e andrebbero a incidere sia sull'efficienza che sulla qualità lavorativa.
+\begin{itemize}
+\item \textbf{Probabilità}: Bassa;
+\item \textbf{Grado di pericolosità}: Alto;
+\item \textbf{Controllo}: Il Responsabile di progetto ha il dovere di monitorare il clima lavorativo e il grado di cooperazione fra i membri del gruppo. Inoltre ciascuno è tenuto a fargli rapporto, in caso si verificassero conflitti di ogni sorta;
+\item \textbf{Contromisire}: Ogni componente del \textit{team} è tenuto a collaborare con gli altri. Nel caso questo risultasse impossibile il Responsabile di Progetto deve mediare fra le parti per ridurre i contrasti.
+\end{itemize}
+
+
+%---------------------------------------------------------------------------------
+\subsection{Rischi a livello organizzativo}
+
+\subsubsection{Inesperienza lavorativa}
+\label{sec:IneLav}
+Essendo il primo lavoro cooperativo che i componenti del \textit{team} affrontano, possono sorgere problemi organizzativi, come difficoltà nella pianificazione e nella distribuzione di ruoli e \textit{task}. 
+\begin{itemize}
+\item \textbf{Probabilità}: Alta;
+\item \textbf{Grado di pericolosità}: Medio;
+\item \textbf{Controllo}: Il responsabile di progetto deve accertarsi che ogni componente del gruppo possa apprendere le conoscenze necessarie a svolgere il proprio ruolo, e che il carico di lavoro assegnato sia sostenibile ed equo fra le parti.
+\item \textbf{Contromisure}: Ogni componente del gruppo è tenuto a documentarsi ed essere in grado di utilizzare tutta la strumentazione utile all'esercizio del proprio ruolo. Lo studio deve essere fatto ottimizzando i tempi di lavoro.
+\end{itemize} 
+
+\subsubsection{Errori nella stima delle tempistiche}
+\label{sec:ErrTemp}
+Il tempo assegnato per ogni attività potrebbe essere stimato in eccesso o in difetto. Data la generale inesperienza dei membri del \textit{team}, al primo lavoro collaborativo, potrebbe facilmente essere commesso un errore di pianificazione di questo tipo. Una sovrastima porta a tempi morti fra due attività, con conseguente spreco di risorse e denaro. Al contrario sottostimare porta facilmente a ritardi e slittamenti delle fasi previste.
+\begin{itemize}
+\item \textbf{Probabilità}: Alta;
+\item \textbf{Grado di pericolosità}: Alto;
+\item \textbf{Controllo}: Si deve controllare spesso il grado di avanzamento di ogni attività per accertarsi sia conforme ai tempi preventivati. Per fare ciò ci si avvale a strumenti di \textit{ticketing}\G.
+\item \textbf{Contromisure}: Per evitare l'accumulo di ritardi a cascata e conseguenti slittamenti, devono essere previsti, in fase di pianificazione, dei margini di tempo fra le attività, in modo da recuperare il ritardo e riuscire ugualmente a raggiungere le \textit{milestone}\G\ nel momento previsto. 
+\end{itemize}
+
+%---------------------------------------------------------------------------------
+% se la tabella non sta nella pagina!
+%\newpage 
+
+\subsection{Riepilogo}
+\begin{table}[h]
+\centering
+\bgroup
+\def\arraystretch{1.6}
+\begin{tabular}{| c | c | c |}
+\hline
+\textbf{Rischio} & \textbf{Probabilità} & \textbf{Pericolosità}\\ \hline \hline 
+\hyperref[sec:ReqNonRil]{Requisito non rilevato} & Alta & Alta \\ \hline
+\hyperref[sec:ErrTemp]{Errori nella stima delle tempistiche} & Alta & Alta \\ \hline
+\hyperref[sec:Incomp]{Incomprensioni fra componenti} & Bassa & Alta \\ \hline
+\hyperref[sec:ScarsTec]{Scarsa conoscenza delle tecnologie scelte} & Alta & Media \\ \hline
+\hyperref[sec:IneLav]{Inesperienza lavorativa} & Alta & Media \\ \hline
+\hyperref[sec:Assenze]{Assenze per problemi personali o di salute} & Media & Media \\ \hline
+\hyperref[sec:PSW]{Problemi \textit{software}} & Bassa & Media \\ \hline
+\hyperref[sec:PHW]{Problemi \textit{hardware}} & Bassa & Media \\ \hline
+\hyperref[sec:PMalf]{Malfunzionamento del servizio di personalizzazione della voce} & Bassa & Bassa \\ \hline
+\end{tabular}
+\egroup
+\caption{Rischi rilevati, ordinati per grado di pericolosità e probabilità di verificarsi}
+\end{table}
+
+

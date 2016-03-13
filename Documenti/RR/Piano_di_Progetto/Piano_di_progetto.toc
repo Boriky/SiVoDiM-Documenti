@@ -1,0 +1,32 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {1}Organigramma}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Redazione}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Approvazione}{1}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Accettazione dei componenti}{2}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Componenti del gruppo}{3}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Ruoli}{3}{subsection.1.5}
+\contentsline {section}{\numberline {2}Introduzione}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Scopo del documento}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Scopo del prodotto}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Glossario}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Riferimenti}{4}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Normativi}{4}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Informativi}{4}{subsubsection.2.4.2}
+\contentsline {subsection}{\numberline {2.5}Scadenze}{4}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Ciclo di vita}{5}{subsection.2.6}
+\contentsline {section}{\numberline {3}Analisi dei rischi}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Rischi relativi ai requisiti}{5}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Requisito non rilevato}{5}{subsubsection.3.1.1}
+\contentsline {subsection}{\numberline {3.2}Rischi tecnologici}{5}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Scarsa conoscenza delle tecnologie scelte}{5}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Malfunzionamento del servizio di personalizzazione della voce}{6}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Problemi Software}{6}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Problemi Hardware}{6}{subsubsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3}Rischi riguardanti il gruppo}{7}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Assenze per problemi personali o di salute}{7}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Incomprensioni fra componenti}{7}{subsubsection.3.3.2}
+\contentsline {subsection}{\numberline {3.4}Rischi a livello organizzativo}{7}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Inesperienza lavorativa}{7}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Errori nella stima delle tempistiche}{8}{subsubsection.3.4.2}
+\contentsline {subsection}{\numberline {3.5}Riepilogo}{8}{subsection.3.5}
