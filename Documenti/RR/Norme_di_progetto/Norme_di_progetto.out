@@ -96,42 +96,27 @@
 \BOOKMARK [4][-]{subparagraph.4.1.3.0.4}{Progettista}{subsubsection.4.1.3}% 96
 \BOOKMARK [5][-]{subparagraph.4.1.3.0.5}{Programmatore}{subparagraph.4.1.3.0.4}% 97
 \BOOKMARK [5][-]{subparagraph.4.1.3.0.6}{Verificatore}{subparagraph.4.1.3.0.4}% 98
-\BOOKMARK [5][-]{subparagraph.4.1.3.0.7}{Interne}{subparagraph.4.1.3.0.4}% 99
-\BOOKMARK [5][-]{subparagraph.4.1.3.0.8}{Esterne}{subparagraph.4.1.3.0.4}% 100
-\BOOKMARK [4][-]{paragraph.4.1.3.1}{Comunicazioni}{subsubsection.4.1.3}% 101
-\BOOKMARK [5][-]{subparagraph.4.1.3.1.1}{Comunicazioni interne}{paragraph.4.1.3.1}% 102
-\BOOKMARK [5][-]{subparagraph.4.1.3.1.2}{Comunicazioni esterne}{paragraph.4.1.3.1}% 103
-\BOOKMARK [4][-]{paragraph.4.1.3.2}{Composizione email}{subsubsection.4.1.3}% 104
-\BOOKMARK [5][-]{subparagraph.4.1.3.2.1}{Mittente}{paragraph.4.1.3.2}% 105
-\BOOKMARK [5][-]{subparagraph.4.1.3.2.2}{Destinatario}{paragraph.4.1.3.2}% 106
-\BOOKMARK [5][-]{subparagraph.4.1.3.2.3}{Corpo}{paragraph.4.1.3.2}% 107
-\BOOKMARK [5][-]{subparagraph.4.1.3.2.4}{Allegati}{paragraph.4.1.3.2}% 108
-\BOOKMARK [4][-]{paragraph.4.1.3.3}{Gestione ticket e milestones}{subsubsection.4.1.3}% 109
-\BOOKMARK [5][-]{subparagraph.4.1.3.3.1}{Creazione e gestione dei ticket}{paragraph.4.1.3.3}% 110
-\BOOKMARK [5][-]{subparagraph.4.1.3.3.2}{Creazione delle milestone}{paragraph.4.1.3.3}% 111
-\BOOKMARK [5][-]{subparagraph.4.1.3.3.3}{Esecuzione dei compiti}{paragraph.4.1.3.3}% 112
-\BOOKMARK [5][-]{subparagraph.4.1.3.3.4}{Chiusura della milestone}{paragraph.4.1.3.3}% 113
-\BOOKMARK [3][-]{subsubsection.4.1.4}{Norme generali}{subsection.4.1}% 114
-\BOOKMARK [4][-]{paragraph.4.1.4.1}{Ambiente di sviluppo}{subsubsection.4.1.4}% 115
-\BOOKMARK [4][-]{paragraph.4.1.4.2}{Ruoli di progetto}{subsubsection.4.1.4}% 116
-\BOOKMARK [5][-]{subparagraph.4.1.4.2.1}{Responsabile di progetto}{paragraph.4.1.4.2}% 117
-\BOOKMARK [5][-]{subparagraph.4.1.4.2.2}{Amministratore}{paragraph.4.1.4.2}% 118
-\BOOKMARK [5][-]{subparagraph.4.1.4.2.3}{Analista}{paragraph.4.1.4.2}% 119
-\BOOKMARK [5][-]{subparagraph.4.1.4.2.4}{Progettista}{paragraph.4.1.4.2}% 120
-\BOOKMARK [5][-]{subparagraph.4.1.4.2.5}{Verificatore}{paragraph.4.1.4.2}% 121
-\BOOKMARK [5][-]{subparagraph.4.1.4.2.6}{Programmatore}{paragraph.4.1.4.2}% 122
-\BOOKMARK [4][-]{paragraph.4.1.4.3}{Struttura del repository}{subsubsection.4.1.4}% 123
-\BOOKMARK [5][-]{subparagraph.4.1.4.3.1}{Repository per la documentazione}{paragraph.4.1.4.3}% 124
-\BOOKMARK [5][-]{subparagraph.4.1.4.3.2}{Repository per il codice}{paragraph.4.1.4.3}% 125
-\BOOKMARK [5][-]{subparagraph.4.1.4.3.3}{Norme sull'utilizzo del servizio}{paragraph.4.1.4.3}% 126
-\BOOKMARK [3][-]{subsubsection.4.1.5}{Strumenti}{subsection.4.1}% 127
-\BOOKMARK [4][-]{paragraph.4.1.5.1}{Sistema operativo}{subsubsection.4.1.5}% 128
-\BOOKMARK [4][-]{paragraph.4.1.5.2}{Coordinamento}{subsubsection.4.1.5}% 129
-\BOOKMARK [5][-]{subparagraph.4.1.5.2.1}{Teamwork?}{paragraph.4.1.5.2}% 130
-\BOOKMARK [5][-]{subparagraph.4.1.5.2.2}{Dropbox}{paragraph.4.1.5.2}% 131
-\BOOKMARK [5][-]{subparagraph.4.1.5.2.3}{Repository GIT}{paragraph.4.1.5.2}% 132
-\BOOKMARK [4][-]{paragraph.4.1.5.3}{Ambiente documentale}{subsubsection.4.1.5}% 133
-\BOOKMARK [5][-]{subparagraph.4.1.5.3.1}{Stesura documenti}{paragraph.4.1.5.3}% 134
-\BOOKMARK [5][-]{subparagraph.4.1.5.3.2}{Script}{paragraph.4.1.5.3}% 135
-\BOOKMARK [4][-]{paragraph.4.1.5.4}{Pianificazione delle attivit\340}{subsubsection.4.1.5}% 136
-\BOOKMARK [4][-]{paragraph.4.1.5.5}{Diagrammi UML}{subsubsection.4.1.5}% 137
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Strumenti}{subsection.4.1}% 99
+\BOOKMARK [4][-]{paragraph.4.1.4.1}{Teamwork}{subsubsection.4.1.4}% 100
+\BOOKMARK [4][-]{paragraph.4.1.4.2}{Astah}{subsubsection.4.1.4}% 101
+\BOOKMARK [4][-]{paragraph.4.1.4.3}{Telegram}{subsubsection.4.1.4}% 102
+\BOOKMARK [4][-]{paragraph.4.1.4.4}{Microsoft Office Power Poin}{subsubsection.4.1.4}% 103
+\BOOKMARK [2][-]{subsection.4.2}{Gestione delle infrastrutture}{section.4}% 104
+\BOOKMARK [3][-]{paragraph.4.2.0.5}{Attivit\340}{subsection.4.2}% 105
+\BOOKMARK [4][-]{subparagraph.4.2.0.5.1}{Gestione del repository}{paragraph.4.2.0.5}% 106
+\BOOKMARK [5][-]{subparagraph.4.2.0.5.2}{Gestione del messaggio di commit}{subparagraph.4.2.0.5.1}% 107
+\BOOKMARK [4][-]{paragraph.4.2.0.6}{Procedure}{paragraph.4.2.0.5}% 108
+\BOOKMARK [5][-]{subparagraph.4.2.0.6.1}{Installazione di Git}{paragraph.4.2.0.6}% 109
+\BOOKMARK [5][-]{subparagraph.4.2.0.6.2}{Creazione di una cartella locale di repository}{paragraph.4.2.0.6}% 110
+\BOOKMARK [5][-]{subparagraph.4.2.0.6.3}{Creazione del branch personale}{paragraph.4.2.0.6}% 111
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Norme}{subsection.4.2}% 112
+\BOOKMARK [4][-]{paragraph.4.2.1.1}{Repository}{subsubsection.4.2.1}% 113
+\BOOKMARK [5][-]{subparagraph.4.2.1.1.1}{Nomi dei file in SiVoDim}{paragraph.4.2.1.1}% 114
+\BOOKMARK [5][-]{subparagraph.4.2.1.1.2}{Struttura di SiVoDim}{paragraph.4.2.1.1}% 115
+\BOOKMARK [5][-]{subparagraph.4.2.1.1.3}{Messaggio di commit}{paragraph.4.2.1.1}% 116
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Strumenti}{subsection.4.2}% 117
+\BOOKMARK [4][-]{paragraph.4.2.2.1}{Git}{subsubsection.4.2.2}% 118
+\BOOKMARK [4][-]{paragraph.4.2.2.2}{GitHub}{subsubsection.4.2.2}% 119
+\BOOKMARK [4][-]{paragraph.4.2.2.3}{Dropbox}{subsubsection.4.2.2}% 120
+\BOOKMARK [4][-]{paragraph.4.2.2.4}{Sistema Operativo}{subsubsection.4.2.2}% 121
+\BOOKMARK [2][-]{subsection.4.3}{Formazione dei membri del gruppo}{section.4}% 122
