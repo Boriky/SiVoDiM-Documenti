@@ -30,9 +30,9 @@
 \contentsline {subsubsection}{\numberline {3.4.1}Inesperienza lavorativa}{7}{subsubsection.3.4.1}
 \contentsline {subsubsection}{\numberline {3.4.2}Errori nella stima delle tempistiche}{8}{subsubsection.3.4.2}
 \contentsline {subsection}{\numberline {3.5}Riepilogo}{8}{subsection.3.5}
-\contentsline {section}{\numberline {4}Pianificazione}{8}{section.4}
-\contentsline {subsection}{\numberline {4.1}Analisi dei Requisiti}{8}{subsection.4.1}
+\contentsline {section}{\numberline {4}Pianificazione}{9}{section.4}
+\contentsline {subsection}{\numberline {4.1}Analisi dei Requisiti}{9}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Analisi di Dettaglio}{10}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Progettazione Architetturale}{10}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Progettazione di Dettaglio e Codifica}{10}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Validazione}{10}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.3}Progettazione Architetturale}{11}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Progettazione di Dettaglio e Codifica}{11}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Validazione}{11}{subsection.4.5}
