@@ -1,0 +1,48 @@
+% importa variabili globali
+\input {../template/config.tex}
+
+
+% definizione variabili locali
+\def\DOCUMENTO{Piano di Qualifica}
+\def\VERSIONE{1.0.0}
+
+\def\DESCRIZIONE{<Info documento>}
+
+\def\REDATTORE {<Redattore>}
+\def\VERIFICATORE {<Verificatore>}
+\def\RESPONSABILE {<Responsabile>}
+
+\def\USO {<Uso>}
+
+\def\DISTRIBUZIONE {\GRUPPO{}\\ & \COMMITTENTE{}\\}
+
+\def\DESCRIZIONE {Documento riguardante l'insieme di strategie di verifica adottate dal gruppo 
+StarkLabs per il conseguimento di requisiti qualitativi per il progetto SiVoDiM.}
+% importa struttura
+\input {../template/structure.tex}
+%registro
+\input {sezioni/Registro_PdQ.tex}
+
+% abilita (true) / disabilita (false) indice, lista tabelle, lista figure
+\def\INDICE	{true}
+\def\TABELLE {true}
+\def\FIGURE {true}
+
+
+% importa indici
+\input {../template/index.tex}
+
+% importa parti documento
+\input {sezioni/1_PdQ.tex}
+\input {sezioni/2_PdQ.tex}
+\input {sezioni/3_PdQ.tex}
+\input {sezioni/4_PdQ.tex}
+
+%\input {sections/nomesezione}
+%\newpage
+
+% ...
+
+%\printglossaries
+
+\end{document}
