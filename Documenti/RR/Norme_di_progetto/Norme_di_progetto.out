@@ -5,43 +5,128 @@
 \BOOKMARK [2][-]{subsection.1.4}{Riferimenti}{section.1}% 5
 \BOOKMARK [3][-]{subsubsection.1.4.1}{Normativi}{subsection.1.4}% 6
 \BOOKMARK [3][-]{subsubsection.1.4.2}{Informativi}{subsection.1.4}% 7
-\BOOKMARK [1][-]{section.2}{Comunicazione}{}% 8
-\BOOKMARK [2][-]{subsection.2.1}{Esterna}{section.2}% 9
-\BOOKMARK [2][-]{subsection.2.2}{Interna}{section.2}% 10
-\BOOKMARK [2][-]{subsection.2.3}{Composizione e-mail}{section.2}% 11
-\BOOKMARK [3][-]{subsubsection.2.3.1}{Destinatario}{subsection.2.3}% 12
-\BOOKMARK [2][-]{subsection.2.4}{Mittente}{section.2}% 13
-\BOOKMARK [3][-]{subsubsection.2.4.1}{Oggetto}{subsection.2.4}% 14
-\BOOKMARK [2][-]{subsection.2.5}{Corpo}{section.2}% 15
-\BOOKMARK [2][-]{subsection.2.6}{Allegati}{section.2}% 16
-\BOOKMARK [1][-]{section.3}{Riunioni}{}% 17
-\BOOKMARK [2][-]{subsection.3.1}{Frequenza}{section.3}% 18
-\BOOKMARK [2][-]{subsection.3.2}{Convocazione riunione}{section.3}% 19
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Interna}{subsection.3.2}% 20
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Esterna}{subsection.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.3}{Svolgimento riunione}{section.3}% 22
-\BOOKMARK [3][-]{subsubsection.3.3.1}{Esterna}{subsection.3.3}% 23
-\BOOKMARK [2][-]{subsection.3.4}{Verbale}{section.3}% 24
-\BOOKMARK [3][-]{subsubsection.3.4.1}{Riunione interna}{subsection.3.4}% 25
-\BOOKMARK [3][-]{subsubsection.3.4.2}{Riunione esterna}{subsection.3.4}% 26
-\BOOKMARK [1][-]{section.4}{Documentazione}{}% 27
-\BOOKMARK [2][-]{subsection.4.1}{Template}{section.4}% 28
-\BOOKMARK [2][-]{subsection.4.2}{Struttura del documento}{section.4}% 29
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Prima pagina}{subsection.4.2}% 30
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Registro delle modifiche}{subsection.4.2}% 31
-\BOOKMARK [3][-]{subsubsection.4.2.3}{Indici}{subsection.4.2}% 32
-\BOOKMARK [3][-]{subsubsection.4.2.4}{Formattazione generale delle pagine}{subsection.4.2}% 33
-\BOOKMARK [2][-]{subsection.4.3}{Norme tipografiche}{section.4}% 34
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Stile del testo}{subsection.4.3}% 35
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Punteggiatura}{subsection.4.3}% 36
-\BOOKMARK [3][-]{subsubsection.4.3.3}{Formati}{subsection.4.3}% 37
-\BOOKMARK [3][-]{subsubsection.4.3.4}{Composizione del testo}{subsection.4.3}% 38
-\BOOKMARK [3][-]{subsubsection.4.3.5}{Sigle}{subsection.4.3}% 39
-\BOOKMARK [2][-]{subsection.4.4}{Componenti grafiche}{section.4}% 40
-\BOOKMARK [3][-]{subsubsection.4.4.1}{Tabelle}{subsection.4.4}% 41
-\BOOKMARK [3][-]{subsubsection.4.4.2}{Immagini}{subsection.4.4}% 42
-\BOOKMARK [2][-]{subsection.4.5}{Classificazione dei documenti}{section.4}% 43
-\BOOKMARK [3][-]{subsubsection.4.5.1}{Documenti formali}{subsection.4.5}% 44
-\BOOKMARK [3][-]{subsubsection.4.5.2}{Documenti informali}{subsection.4.5}% 45
-\BOOKMARK [3][-]{subsubsection.4.5.3}{Glossario}{subsection.4.5}% 46
-\BOOKMARK [2][-]{subsection.4.6}{Versionamento}{section.4}% 47
+\BOOKMARK [1][-]{section.2}{Processi primari}{}% 8
+\BOOKMARK [2][-]{subsection.2.1}{Fornitura}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Attivit\340}{subsection.2.1}% 10
+\BOOKMARK [4][-]{paragraph.2.1.1.1}{Accettazione}{subsubsection.2.1.1}% 11
+\BOOKMARK [5][-]{subparagraph.2.1.1.1.1}{Discussione e scelta del capitolato}{paragraph.2.1.1.1}% 12
+\BOOKMARK [5][-]{subparagraph.2.1.1.1.2}{Studio di fattibilit\340}{paragraph.2.1.1.1}% 13
+\BOOKMARK [4][-]{paragraph.2.1.1.2}{Preparazione della risposta}{subsubsection.2.1.1}% 14
+\BOOKMARK [5][-]{subparagraph.2.1.1.2.1}{Definizione e preparazione della proposta}{paragraph.2.1.1.2}% 15
+\BOOKMARK [4][-]{paragraph.2.1.1.3}{Pianificazione}{subsubsection.2.1.1}% 16
+\BOOKMARK [5][-]{subparagraph.2.1.1.3.1}{Scelta del modello di ciclo di vita}{paragraph.2.1.1.3}% 17
+\BOOKMARK [5][-]{subparagraph.2.1.1.3.2}{Sviluppo e documentazione del Piano di Progetto}{paragraph.2.1.1.3}% 18
+\BOOKMARK [2][-]{subsection.2.2}{Sviluppo}{section.2}% 19
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Attivit\340}{subsection.2.2}% 20
+\BOOKMARK [4][-]{paragraph.2.2.1.1}{Analisi dei requisiti}{subsubsection.2.2.1}% 21
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Norme}{subsection.2.2}% 22
+\BOOKMARK [4][-]{paragraph.2.2.2.1}{Classificazione requisiti}{subsubsection.2.2.2}% 23
+\BOOKMARK [4][-]{paragraph.2.2.2.2}{Classificazione casi d'uso}{subsubsection.2.2.2}% 24
+\BOOKMARK [4][-]{paragraph.2.2.2.3}{Codifica file}{subsubsection.2.2.2}% 25
+\BOOKMARK [4][-]{paragraph.2.2.2.4}{Nomi e norme di codifica}{subsubsection.2.2.2}% 26
+\BOOKMARK [4][-]{paragraph.2.2.2.5}{Ricorsione}{subsubsection.2.2.2}% 27
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Strumenti}{subsection.2.2}% 28
+\BOOKMARK [4][-]{paragraph.2.2.3.1}{Requirements Tool}{subsubsection.2.2.3}% 29
+\BOOKMARK [4][-]{paragraph.2.2.3.2}{PhpStorm ?}{subsubsection.2.2.3}% 30
+\BOOKMARK [1][-]{section.3}{Processi di supporto}{}% 31
+\BOOKMARK [2][-]{subsection.3.1}{Documentazione}{section.3}% 32
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Attivit\340}{subsection.3.1}% 33
+\BOOKMARK [4][-]{paragraph.3.1.1.1}{Documentazione}{subsubsection.3.1.1}% 34
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Procedure}{subsection.3.1}% 35
+\BOOKMARK [4][-]{paragraph.3.1.2.1}{Gestione dei documenti}{subsubsection.3.1.2}% 36
+\BOOKMARK [4][-]{paragraph.3.1.2.2}{Creazione di un nuovo documento}{subsubsection.3.1.2}% 37
+\BOOKMARK [4][-]{paragraph.3.1.2.3}{Avanzamento di un documento}{subsubsection.3.1.2}% 38
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Gestione del glossario}{subsection.3.1}% 39
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Norme}{subsection.3.1}% 40
+\BOOKMARK [4][-]{paragraph.3.1.4.1}{Progettazione e sviluppo dei documenti}{subsubsection.3.1.4}% 41
+\BOOKMARK [4][-]{paragraph.3.1.4.2}{Versionamento}{subsubsection.3.1.4}% 42
+\BOOKMARK [4][-]{paragraph.3.1.4.3}{Template}{subsubsection.3.1.4}% 43
+\BOOKMARK [4][-]{paragraph.3.1.4.4}{Struttura dei documenti}{subsubsection.3.1.4}% 44
+\BOOKMARK [5][-]{subparagraph.3.1.4.4.1}{Prima pagina}{paragraph.3.1.4.4}% 45
+\BOOKMARK [5][-]{subparagraph.3.1.4.4.2}{Registro delle modifiche}{paragraph.3.1.4.4}% 46
+\BOOKMARK [5][-]{subparagraph.3.1.4.4.3}{Indici}{paragraph.3.1.4.4}% 47
+\BOOKMARK [5][-]{subparagraph.3.1.4.4.4}{Formattazione di una pagina}{paragraph.3.1.4.4}% 48
+\BOOKMARK [4][-]{paragraph.3.1.4.5}{Suddivisione dei documenti}{subsubsection.3.1.4}% 49
+\BOOKMARK [5][-]{subparagraph.3.1.4.5.1}{Norme di Progetto}{paragraph.3.1.4.5}% 50
+\BOOKMARK [5][-]{subparagraph.3.1.4.5.2}{Studio di Fattibilit\340}{paragraph.3.1.4.5}% 51
+\BOOKMARK [5][-]{subparagraph.3.1.4.5.3}{Analisi dei Requisiti}{paragraph.3.1.4.5}% 52
+\BOOKMARK [5][-]{subparagraph.3.1.4.5.4}{Piano di Progetto}{paragraph.3.1.4.5}% 53
+\BOOKMARK [5][-]{subparagraph.3.1.4.5.5}{Piano di Qualifica}{paragraph.3.1.4.5}% 54
+\BOOKMARK [5][-]{subparagraph.3.1.4.5.6}{Specifica Tecnica}{paragraph.3.1.4.5}% 55
+\BOOKMARK [5][-]{subparagraph.3.1.4.5.7}{Definizione di Prodotto}{paragraph.3.1.4.5}% 56
+\BOOKMARK [5][-]{subparagraph.3.1.4.5.8}{Glossario}{paragraph.3.1.4.5}% 57
+\BOOKMARK [4][-]{paragraph.3.1.4.6}{Norme tipografiche}{subsubsection.3.1.4}% 58
+\BOOKMARK [5][-]{subparagraph.3.1.4.6.1}{Stile del testo}{paragraph.3.1.4.6}% 59
+\BOOKMARK [5][-]{subparagraph.3.1.4.6.2}{Punteggiatura}{paragraph.3.1.4.6}% 60
+\BOOKMARK [5][-]{subparagraph.3.1.4.6.3}{Composizione del testo}{paragraph.3.1.4.6}% 61
+\BOOKMARK [5][-]{subparagraph.3.1.4.6.4}{Formati}{paragraph.3.1.4.6}% 62
+\BOOKMARK [5][-]{subparagraph.3.1.4.6.5}{Sigle}{paragraph.3.1.4.6}% 63
+\BOOKMARK [4][-]{paragraph.3.1.4.7}{Componenti grafiche}{subsubsection.3.1.4}% 64
+\BOOKMARK [5][-]{subparagraph.3.1.4.7.1}{Immagini}{paragraph.3.1.4.7}% 65
+\BOOKMARK [5][-]{subparagraph.3.1.4.7.2}{Diagrammi}{paragraph.3.1.4.7}% 66
+\BOOKMARK [2][-]{subsection.3.2}{Processo di verifica e validazione}{section.3}% 67
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Attivit\340}{subsection.3.2}% 68
+\BOOKMARK [4][-]{paragraph.3.2.1.1}{Analisi statica}{subsubsection.3.2.1}% 69
+\BOOKMARK [4][-]{paragraph.3.2.1.2}{Analisi dinamica}{subsubsection.3.2.1}% 70
+\BOOKMARK [4][-]{paragraph.3.2.1.3}{Gestione anomalie}{subsubsection.3.2.1}% 71
+\BOOKMARK [4][-]{paragraph.3.2.1.4}{Tracciamento}{subsubsection.3.2.1}% 72
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Procedure}{subsection.3.2}% 73
+\BOOKMARK [4][-]{paragraph.3.2.2.1}{Procedure di assegnazione delle anomalie}{subsubsection.3.2.2}% 74
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Norme}{subsection.3.2}% 75
+\BOOKMARK [4][-]{paragraph.3.2.3.1}{Priorit\340 risoluzione anomalie}{subsubsection.3.2.3}% 76
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Strumenti}{subsection.3.2}% 77
+\BOOKMARK [4][-]{paragraph.3.2.4.1}{Correzione ortografica}{subsubsection.3.2.4}% 78
+\BOOKMARK [4][-]{paragraph.3.2.4.2}{Calcolo indice Gulpease}{subsubsection.3.2.4}% 79
+\BOOKMARK [4][-]{paragraph.3.2.4.3}{Database online}{subsubsection.3.2.4}% 80
+\BOOKMARK [1][-]{section.4}{Processi organizzativi}{}% 81
+\BOOKMARK [2][-]{subsection.4.1}{Gestione dei processi}{section.4}% 82
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Attivit\340}{subsection.4.1}% 83
+\BOOKMARK [4][-]{paragraph.4.1.1.1}{Gestione delle comunicazioni}{subsubsection.4.1.1}% 84
+\BOOKMARK [5][-]{subparagraph.4.1.1.1.1}{Comunicazione interna}{paragraph.4.1.1.1}% 85
+\BOOKMARK [5][-]{subparagraph.4.1.1.1.2}{Comunicazione esterna}{paragraph.4.1.1.1}% 86
+\BOOKMARK [5][-]{subparagraph.4.1.1.1.3}{Composizione email}{paragraph.4.1.1.1}% 87
+\BOOKMARK [4][-]{paragraph.4.1.1.2}{Gestione delle riunioni}{subsubsection.4.1.1}% 88
+\BOOKMARK [5][-]{subparagraph.4.1.1.2.1}{Riunioni interne}{paragraph.4.1.1.2}% 89
+\BOOKMARK [5][-]{subparagraph.4.1.1.2.2}{Riunioni esterne}{paragraph.4.1.1.2}% 90
+\BOOKMARK [4][-]{paragraph.4.1.1.3}{Gestione del sistema dei task}{subsubsection.4.1.1}% 91
+\BOOKMARK [4][-]{paragraph.4.1.1.4}{Gestione delle milestone}{subsubsection.4.1.1}% 92
+\BOOKMARK [4][-]{paragraph.4.1.1.5}{Gestione dei task}{subsubsection.4.1.1}% 93
+\BOOKMARK [4][-]{paragraph.4.1.1.6}{Gestione dello svolgimento dei task}{subsubsection.4.1.1}% 94
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Procedure}{subsection.4.1}% 95
+\BOOKMARK [4][-]{paragraph.4.1.2.1}{Generazione di una milestone}{subsubsection.4.1.2}% 96
+\BOOKMARK [4][-]{paragraph.4.1.2.2}{Assegnazione di un task}{subsubsection.4.1.2}% 97
+\BOOKMARK [4][-]{paragraph.4.1.2.3}{Svolgimento di un task}{subsubsection.4.1.2}% 98
+\BOOKMARK [4][-]{paragraph.4.1.2.4}{Rilevamento dei rischi}{subsubsection.4.1.2}% 99
+\BOOKMARK [4][-]{paragraph.4.1.2.5}{Ruoli di Progetto}{subsubsection.4.1.2}% 100
+\BOOKMARK [5][-]{subparagraph.4.1.2.5.1}{Responsabile di Progetto}{paragraph.4.1.2.5}% 101
+\BOOKMARK [5][-]{subparagraph.4.1.2.5.2}{Amministratore di Progetto}{paragraph.4.1.2.5}% 102
+\BOOKMARK [5][-]{subparagraph.4.1.2.5.3}{Analista}{paragraph.4.1.2.5}% 103
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Norme}{subsection.4.1}% 104
+\BOOKMARK [4][-]{subparagraph.4.1.3.0.4}{Progettista}{subsubsection.4.1.3}% 105
+\BOOKMARK [5][-]{subparagraph.4.1.3.0.5}{Programmatore}{subparagraph.4.1.3.0.4}% 106
+\BOOKMARK [5][-]{subparagraph.4.1.3.0.6}{Verificatore}{subparagraph.4.1.3.0.4}% 107
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Strumenti}{subsection.4.1}% 108
+\BOOKMARK [4][-]{paragraph.4.1.4.1}{Teamwork}{subsubsection.4.1.4}% 109
+\BOOKMARK [4][-]{paragraph.4.1.4.2}{Astah}{subsubsection.4.1.4}% 110
+\BOOKMARK [4][-]{paragraph.4.1.4.3}{Gantt}{subsubsection.4.1.4}% 111
+\BOOKMARK [4][-]{paragraph.4.1.4.4}{Telegram}{subsubsection.4.1.4}% 112
+\BOOKMARK [4][-]{paragraph.4.1.4.5}{Microsoft Office Power Point}{subsubsection.4.1.4}% 113
+\BOOKMARK [2][-]{subsection.4.2}{Gestione delle infrastrutture}{section.4}% 114
+\BOOKMARK [3][-]{paragraph.4.2.0.6}{Attivit\340}{subsection.4.2}% 115
+\BOOKMARK [4][-]{subparagraph.4.2.0.6.1}{Gestione del repository}{paragraph.4.2.0.6}% 116
+\BOOKMARK [5][-]{subparagraph.4.2.0.6.2}{Gestione del messaggio di commit}{subparagraph.4.2.0.6.1}% 117
+\BOOKMARK [4][-]{paragraph.4.2.0.7}{Procedure}{paragraph.4.2.0.6}% 118
+\BOOKMARK [5][-]{subparagraph.4.2.0.7.1}{Installazione di Git}{paragraph.4.2.0.7}% 119
+\BOOKMARK [5][-]{subparagraph.4.2.0.7.2}{Creazione di una cartella locale di repository}{paragraph.4.2.0.7}% 120
+\BOOKMARK [5][-]{subparagraph.4.2.0.7.3}{Creazione del branch personale}{paragraph.4.2.0.7}% 121
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Norme}{subsection.4.2}% 122
+\BOOKMARK [4][-]{paragraph.4.2.1.1}{Repository}{subsubsection.4.2.1}% 123
+\BOOKMARK [5][-]{subparagraph.4.2.1.1.1}{Nomi dei file in SiVoDim}{paragraph.4.2.1.1}% 124
+\BOOKMARK [5][-]{subparagraph.4.2.1.1.2}{Struttura di SiVoDim}{paragraph.4.2.1.1}% 125
+\BOOKMARK [5][-]{subparagraph.4.2.1.1.3}{Messaggio di commit}{paragraph.4.2.1.1}% 126
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Strumenti}{subsection.4.2}% 127
+\BOOKMARK [4][-]{paragraph.4.2.2.1}{Git}{subsubsection.4.2.2}% 128
+\BOOKMARK [4][-]{paragraph.4.2.2.2}{GitHub}{subsubsection.4.2.2}% 129
+\BOOKMARK [4][-]{paragraph.4.2.2.3}{Dropbox}{subsubsection.4.2.2}% 130
+\BOOKMARK [4][-]{paragraph.4.2.2.4}{Sistema Operativo}{subsubsection.4.2.2}% 131
+\BOOKMARK [2][-]{subsection.4.3}{Formazione dei membri del gruppo}{section.4}% 132
