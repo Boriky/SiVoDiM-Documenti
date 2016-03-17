@@ -11,3 +11,26 @@
 \BOOKMARK [2][-]{subsection.2.3}{Caratteristiche degli utenti}{section.2}% 11
 \BOOKMARK [2][-]{subsection.2.4}{Vincoli generali}{section.2}% 12
 \BOOKMARK [1][-]{section.3}{Casi d'uso}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{Caso d'uso UC1: Scenario di alto livello}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.2}{Caso d'uso UC1.1: Creazione sceneggiato}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.3}{Caso d'uso UC1.1.1: Creazione personaggi}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.4}{Caso d'uso UC1.1.2: Assegnazione voce}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.5}{Caso d'uso UC1.1.2: Scrittura battute}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.6}{Caso d'uso UC1.1.3: Associazione battuta-sentimento}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.7}{Caso d'uso UC1.1.4: Modifica battuta}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.8}{Caso d'uso UC1.2: Condivisione}{section.3}% 21
+\BOOKMARK [2][-]{subsection.3.9}{Caso d'uso UC1.3: Esportazione file audio}{section.3}% 22
+\BOOKMARK [2][-]{subsection.3.10}{Caso d'uso UC1.4: Salvataggio file}{section.3}% 23
+\BOOKMARK [2][-]{subsection.3.11}{Caso d'uso UC1.7: Apertura file}{section.3}% 24
+\BOOKMARK [2][-]{subsection.3.12}{Caso d'uso UC1.8: Modifica sceneggiato}{section.3}% 25
+\BOOKMARK [2][-]{subsection.3.13}{Caso d'uso UC2: Configurazione alto livello}{section.3}% 26
+\BOOKMARK [2][-]{subsection.3.14}{Caso d'uso UC2.1: Creazione preset}{section.3}% 27
+\BOOKMARK [2][-]{subsection.3.15}{Caso d'uso UC2.2: Selezione voce per il sistema}{section.3}% 28
+\BOOKMARK [2][-]{subsection.3.16}{Caso d'uso UC2.3: Campionamento voce}{section.3}% 29
+\BOOKMARK [2][-]{subsection.3.17}{Caso d'uso UC2.4: Test preset}{section.3}% 30
+\BOOKMARK [2][-]{subsection.3.18}{Caso d'uso UC2.5: Modifica preset}{section.3}% 31
+\BOOKMARK [2][-]{subsection.3.19}{Caso d'uso UC3: Modulo di sistema alto livello}{section.3}% 32
+\BOOKMARK [2][-]{subsection.3.20}{Caso d'uso UC3.3: Comunicazione server}{section.3}% 33
+\BOOKMARK [2][-]{subsection.3.21}{Caso d'uso UC3.5: Selezione preset}{section.3}% 34
+\BOOKMARK [1][-]{section.4}{Requisiti}{}% 35
+\BOOKMARK [2][-]{subsection.4.1}{Requisiti funzionali}{section.4}% 36

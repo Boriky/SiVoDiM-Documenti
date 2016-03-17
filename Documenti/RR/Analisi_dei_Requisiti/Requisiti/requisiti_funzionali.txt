@@ -1,0 +1,85 @@
+L'utente deve poter assegnare una voce al personaggio creato | Obbligatorio | Funzionale | UC1.1.1.2 UC1.1.1.2.2
+L'utente deve poter modificare la voce di un personaggio  | Obbligatorio | Funzionale | UC1.1.1.2
+L'utente deve poter visualizzare le voci disponibili  | Obbligatorio | Funzionale | UC1.1.1.2.1
+L'utente deve poter scrivere una battuta  | Obbligatorio | Funzionale | UC1.1.2
+L'utente deve poter associare un personaggio ad ogni battuta  | Obbligatorio | Funzionale | UC1.1.2 UC1.1.2.1
+L'utente deve poter modificare il personaggio associato ad una battuta  | Obbligatorio | Funzionale | UC1.1.2 UC1.1.2.2
+L'utente deve poter visualizzare l'elenco dei personaggi a disposizione  | Obbligatorio | Funzionale | UC1.1.1
+L'utente deve poter cancellare una battuta  | Obbligatorio | Funzionale | UC1.1.2 UC1.1.2.3
+L'utente deve poter cancellare un personaggio  | Obbligatorio | Funzionale | UC1.1.1
+L'utente deve poter associare un sentimento ad ogni battuta  | Obbligatorio | Funzionale | UC1.1.3
+L'utente deve poter modificare il sentimento associato ad una battuta  | Obbligatorio | Funzionale | UC1.1.3
+L'utente deve poter visualizzare i sentimenti disponibili  | Obbligatorio | Funzionale | UC1.1.3.2
+L'utente deve poter cambiare il personaggio associato ad ogni battuta  | Obbligatorio | Funzionale | UC1.1.4.4
+L'utente deve poter modificare il testo di ogni battuta | Obbligatorio | Funzionale | UC1.4
+L'utente deve poter condividere l'audio dello sceneggiato  | Obbligatorio | Funzionale | UC1.2
+L'utente deve poter navigare fra le opzioni di condivisione  | Obbligatorio | Funzionale | UC1.2.1
+L'applicazione deve reperire gli strumenti di condivisione disponibili nel sistema  | Obbligatorio | Funzionale | UC1.2.3
+L'utente deve poter selezionare lo strumento di condivisione che preferisce  | Obbligatorio | Funzionale | UC1.2.2
+Devono essere offerti meccanismi di annullamento delle operazioni svolte dall'utente  | Obbligatorio | Funzionale | Accessibilità 
+L'utente deve poter esportare lo sceneggiato in un file audio  | Obbligatorio | Funzionale | UC1.3
+L'utente deve poter selezionare il formato audio di esportazione  | Obbligatorio | Funzionale | UC1.3 UC3.2
+Deve essere possibile esportare nel formato mp3  | Obbligatorio | Funzionale | UC1.3
+Deve essere possibile esportare lo sceneggiato nel formato wav  | Obbligatorio | Funzionale | UC1.3
+L'utente deve poter indicare il nome di salvataggio del file audio  | Obbligatorio | Funzionale | UC1.3 UC1.3.1
+Nel caso la condivisione fallisse deve essere fornita come opzione all'utente l'esportazione e il salvataggio in locale del file audio | Obbligatorio | Funzionale | UC1.3 UC1.2
+L'utente deve poter salvare lo sceneggiato  | Obbligatorio | Funzionale | UC1.4
+L'utente deve poter scegliere con che nome salvare lo sceneggiato  | Obbligatorio | Funzionale | UC1.4 
+Nel caso il salvataggio non andasse a buon fine deve essere fornito all'utente un messaggio di errore | Desiderabile | Funzionale | Accessibilità UC1.4 UC1.4.3
+Il sistema deve effettuare salvataggi automatici ogni minuto | Obbligatorio | Funzionale | UC1.9
+L'applicazione deve salvare i file in una cartella di default  | Obbligatorio | Funzionale | UC1.4.1
+Deve essere possibile recuperare la sessione corrente in caso di crash del programma  | Obbligatorio | Funzionale | UC1.9
+L'utente deve poter aprire uno sceneggiato salvato in precedenza  | Obbligatorio | Funzionale | UC1.7
+Deve essere disponibile una lista contenente tutti gli sceneggiati salvati  | Obbligatorio | Funzionale | UC1.7
+
+???????????? senza UC ????????????????
+L'utente deve poter ascoltare ogni battuta singolarmente  | Obbligatorio | Funzionale | UC???
+L'utente deve poter ascoltare una parte selezionata dello sceneggiato  | Obbligatorio | Funzionale | UC??
+L'utente deve poter selezionare una parte dello sceneggiato  | Obbligatorio | Funzionale | UC??
+L'applicazione deve fornire un'anteprima dello sceneggiato su richiesta dell'utente  | Obbligatorio | Funzionale | UC??
+
+############################################# 2
+
+L'utente deve poter creare delle configurazioni di effetti personali  | Obbligatorio | Funzionale | UC2.1
+L'utente deve poter salvare le configurazioni di effetti create  | Obbligatorio | Funzionale | UC2.1
+L'utente deve poter navigare fra le configurazioni di effetti disponibili  | Obbligatorio | Funzionale | 2.1.1
+Il modulo di sistema deve reperire gli effetti disponibili  | Obbligatorio | Funzionale | UC3.2
+L'utente deve poter impostare i parametri di ogni configurazione di effetti  | Obbligatorio | Funzionale | 2.1.2
+L'utente deve poter decidere il nome con cui salvare una configurazione di effetti  | Obbligatorio | Funzionale | 2.1.3
+Ogni configurazione di effetti è un file xml  | Obbligatorio | Funzionale vincolo??| UC2.1.3
+L'utente deve poter selezionare una voce per personalizzare il servizio TTS di sistema  | Obbligatorio | Funzionale | UC2.2
+L'utente deve poter navigare fra le voci di sistema disponibili  | Obbligatorio | Funzionale | UC2.2 UC2.2.1
+L'utente deve avere la possibilità di campionare la propria voce  | Opzionale | Funzionale | UC2.3
+L'utente deve poter visualizzare le frasi da leggere nella fase di campionamento  | Obbligatorio | Funzionale | UC2.3.1
+L'utente deve potersi registrare durante la lettura delle frasi necessaria per il campionamento | Obbligatorio | Funzionale | UC2.3.2
+L'applicazione deve essere in grado di inviare al server di MIVOQ srl le registrazioni necessarie per il campionamento  | Obbligatorio | Funzionale | UC2.3.3
+L'utente deve poter testare le configurazioni di effetti ascoltando la sintesi di un testo di prova  | Obbligatorio | Funzionale | UC2.4
+L'utente deve poter modificare i parametri di una configurazione di effetti  | Obbligatorio | Funzionale | UC2.5
+
+########################################## 3
+
+Il modulo di sistema deve poter reperire le voci disponibili nel sistema  | Obbligatorio | Funzionale | UC3.1
+Il modulo di sistema deve poter reperire le voci offerte dal server di MIVOQ srl  | Obbligatorio | Funzionale | UC3.1
+Il modulo di sistema deve poter comunicare con il server di MIVOQ srl  | Obbligatorio | Funzionale | UC3.3
+Il modulo di sistema deve essere in grado di creare una corretta richiesta http  | Obbligatorio | Funzionale | UC3.1.1
+Il modulo di stistema deve essere in grado di inviare una richiesta http  | Obbligatorio | Funzionale | UC3.1.2
+Il modulo di sistema deve essere in grado di ricevere le risposte delle richieste effettuate dal server di MIVOQ srl | Obbligatorio | Funzionale | UC3.1.3
+In caso di connessione assente l'utente deve poter visualizzare un opportuno messaggio di errore | Obbligatorio | Funzionale | UC3.1.5
+In caso la connessione venisse meno a processo avviato, l'utente deve poter visualizzare un opportuno messaggio di errore | Obbligatorio | Funzionale | UC3.1.5
+In caso di assenza di connessione l'utente deve poter utilizzare l'applicazione con le voci di sistema | Opzionale | Funzionale | Capitolato
+Il modulo di sistema deve ottenere dal server di MIVOQ srl la lista degli effetti disponibili | Obbligatorio | Funzionale | UC3.2
+Il modulo di sistema deve essere in grado di formulare una richiesta http per la ricezione degli effetti | Obbligatorio | Funzionale | UC3.2
+Il modulo di sistema deve essere in grado di mantenere nella memoria l'audio ricevuto dal server MIVOQ srl | Obbligatorio | Funzionale | UC3.4
+Il modulo di sistema deve integrarsi con il servizio TTS del sistema, per mettere a disposizione nuove voci alle applicazioni installate | Desiderabile | Funzionale | Capitolato
+
+
+
+
+
+
+
+
+
+
+
+

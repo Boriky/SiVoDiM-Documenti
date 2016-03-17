@@ -1,0 +1,2 @@
+Il modulo di sistema deve integrarsi con il sistema Android | Di vincolo | Obbligatorio | Capitolato Verbale esterno 09/03/2016
+ 
