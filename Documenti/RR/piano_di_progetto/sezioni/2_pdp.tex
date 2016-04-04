@@ -1,0 +1,70 @@
+\section{Introduzione}
+
+\subsection{Scopo del documento}
+Questo documento ha lo scopo di descrivere l'organizzazione che il gruppo \GRUPPO\ si impegna ad attuare per portare a termine il progetto \PROGETTO. Viene pianificata, sulla base delle scadenze e delle risorse disponibili, la dislocazione temporale con cui suddividere in modo proficuo le attività da svolgere. Più precisamente, viene indicato:
+\begin{itemize}
+\item Un insieme di fattori di rischio che sono stati identificati per poter essere arginati;
+\item Il tempo previsto per ogni attività;
+\item Una stima del costo in termini di risorse;
+\item Un bilancio sull'utilizzo totale delle risorse.
+\end{itemize}  
+
+\subsection{Scopo del progetto}
+Lo scopo del progetto risiede nello sviluppo di un'applicazione utile a dimostrare efficacemente
+le potenzialità del motore di sintesi vocale FA-TTS\G, realizzato dall'azienda \AZIENDA\ e messo a disposizione del gruppo di lavoro. Si devono realizzare due applicazioni per sistemi Android\G:
+\begin{itemize}
+	\item \textbf{Applicazione di configurazione}: deve permettere all'utente di interfacciarsi direttamente con il sistema operativo per configurare, salvare e modificare le voci ereditate dal motore di sintesi FA-TTS di MIVOQ;
+	\item \textbf{Applicazione per la creazione di sceneggiati}: permette la creazione e il salvataggio di racconti e sceneggiati, che possono essere esportati in formato audio attraverso l'utilizzo del motore FA-TTS.
+\end{itemize}
+Entrambe le applicazioni devono interfacciarsi con due moduli di basso livello:
+\begin{itemize}
+	\item \textbf{Modulo di sistema}: permette di interfacciarsi tramite connessione di rete al motore FA-TTS;
+	\item \textbf{Libreria}: una libreria contenente tutte le funzionalità offerte dal motore FA-TTS, utile nell'ottica di un riuso futuro del \textit{software}.
+\end{itemize} 
+Lo sviluppo di tutte e quattro le suddette componenti è a carico del gruppo Stark Labs.
+
+\subsection{Glossario}
+Al fine di aumentare la comprensione del testo ed evitare eventuali ambiguità, 
+viene fornito un glossario (\textit{Glossario v1.0.0}) contenente le 
+definizioni degli acronimi e dei termini tecnici utilizzati nel documento. Ogni 
+vocabolo contenuto nel glossario è contrassegnato dal pedice "\G ".
+
+\subsection{Riferimenti}
+
+\subsubsection{Normativi}
+\begin{itemize}
+\item \textit{Norme di Progetto v1.0.0};
+\item \textbf{Regole del progetto didattico}: \url{http://www.math.unipd.it/~tullio/IS-1/2015/Dispense/PD01.pdf};
+\item \textbf{Regolamento Organigramma}: \url{http://www.math.unipd.it/~tullio/IS-1/2015/Progetto/PD01b.html}.
+\end{itemize}
+
+\subsubsection{Informativi}
+\begin{itemize}
+\item \textit{Glossario v1.0.0};
+\item \textit{Studio di Fattibilità v1.0.0}.
+\item \textbf{SWEBOK Guide\G}: The Guide to the Software Engineering Body of Knowledge V3 \\ \url{https://www.computer.org/web/swebok/}
+\end{itemize}
+ 
+
+\subsection{Scadenze}
+Di seguito sono riportate le scadenze che il gruppo \GRUPPO\ si impegna a rispettare. La fase di pianificazione delle attività si basa su tali date:
+\begin{itemize}
+\item \textbf{Revisione dei Requisiti (RR)}: 18/04/2016;
+\item \textbf{Revisione dei Progettazione (RP)}: 23/05/2016;
+\item \textbf{Revisione di Qualifica (RQ)}: 17/06/2016;
+\item \textbf{Revisione di Accettazione (RA)}:  11/07/2016.
+\end{itemize}
+
+\subsection{Ciclo di vita}
+Per lo sviluppo del prodotto è stato scelto di seguire il \textbf{modello di ciclo di vita incrementale}. Questo consente di spezzare la realizzazione delle componenti richieste in periodi temporali distinti, alla cui fine è prevista una specifica fase di verifica. In questo modo si garantisce un controllo attento e dettagliato per ogni fase. Una forte suddivisione infatti consente di applicare più facilmente il ciclo di Deming\G, garantendo un forte controllo sull'andamento del progetto. Inoltre questo modello consente di focalizzarsi inizialmente sui requisiti principali, lasciando l'implementazione di tutti gli altri requisiti (secondari) a un secondo momento. I motivi principali per cui è stato scelto questo modello sono:
+\begin{itemize}
+\item La struttura del prodotto richiesto, composto di componenti distinte con un diverso grado di importanza per il Proponente;
+\item La grande disponibilità del Proponente a discutere con il \textit{team}, anche durante lo sviluppo (mediante incontri o conferenze audio);
+\item La possibilità di spezzare il lavoro in più fasi, in cui dedicarsi alla risoluzione di specifici requisiti per incrementi successivi;
+\item Maggiore controllo sull'avanzamento del progetto dato dalla facilità di applicare il ciclo di Deming\G\ su fasi di breve durata;
+\item La possibilità di fare prototipi, o usare una versione precedente del prodotto, per chiedere al Proponente delucidazioni riguardo il soddisfacimento di requisiti;
+\item La possibilità di eseguire test di maggiore dettaglio, dedicati al prodotto di ciascuna fase;
+\item Il vantaggio di procedere nel lavoro concentrandosi da subito sugli obiettivi strategici obbligatori e solo in un secondo momento su quelli opzionali, riducendo il rischio di un fallimento completo del progetto.
+\end{itemize}
+
+\newpage

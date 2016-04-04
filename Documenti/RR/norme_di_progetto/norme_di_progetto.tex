@@ -1,0 +1,48 @@
+% importa variabili globali
+\input {../template/config.tex}
+
+
+% definizione variabili locali
+\def\DOCUMENTO{Norme di Progetto}
+\def\VERSIONE{1.0.0}
+
+\def\REDATTORE {Enrico Chiara\\ & Gino Zaidan\\ & Riccardo Rizzo}
+\def\VERIFICATORE {Federico Rossetto\\ & Riccardo Rizzo}
+\def\RESPONSABILE {Alberto Andriolo}
+
+\def\USO {Interno}
+
+\def\DISTRIBUZIONE {\GRUPPO{}\\ & \COMMITTENTE{}\\}
+
+\def\DESCRIZIONE {Documento contenente l'insieme di norme rispettate dal gruppo \GRUPPO\ per la realizzazione del progetto \PROGETTO}
+
+
+% abilita (true) / disabilita (false) indice, lista tabelle, lista figure
+\def\INDICE	{true}
+\def\TABELLE {false}
+\def\FIGURE {true}
+
+
+% importa struttura
+\input {../template/structure.tex}
+
+% registro
+\input {sezioni/registro_ndp.tex}
+
+% importa indici
+\input {../template/index.tex}
+
+% importa parti documento
+\input {sezioni/1_ndp.tex}
+\input {sezioni/2_ndp.tex}
+\input {sezioni/3_ndp.tex}
+\input {sezioni/4_ndp.tex}
+
+%\input {sections/nomesezione}
+%\newpage
+
+% ...
+
+%\printglossaries
+
+\end{document}

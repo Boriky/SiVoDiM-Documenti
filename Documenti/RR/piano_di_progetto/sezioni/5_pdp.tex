@@ -1,0 +1,687 @@
+\section{Preventivo}
+
+\subsection{Analisi dei Requisiti}
+\subsubsection{Prospetto orario}
+Nel dettaglio vengono indicati quali ruoli rivestiranno i membri del team \GRUPPO.
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{1cm} | p{1cm} | p{1cm}| p{1cm} | 
+	p{1cm} | p{1.7cm}|}
+		\hline
+		\textbf{Nominativo} & \textbf{PM} & \textbf{Am} & \textbf{An} & 
+		\textbf{Pt} & \textbf{Pr} & \textbf{Ve} & \textbf{Ore totali}\\ 
+		
+		\hline \hline  
+		
+		\textbf{Alberto Andriolo} & \textbf{13} & \textbf{} & \textbf{} & 
+		\textbf{} & \textbf{} & \textbf{9} & \textbf{22}\\ 
+		\hline 
+		
+		\textbf{Enrico Chiara} & \textbf{6} & \textbf{} & \textbf{10} & 
+		\textbf{} & \textbf{} & \textbf{6} & \textbf{22}\\ 
+		\hline 
+		
+		\textbf{Federico Rossetto} & \textbf{} & \textbf{6} & \textbf{} & 
+		\textbf{} & \textbf{} & \textbf{15} & \textbf{21}\\ 
+		\hline 
+		
+		\textbf{Francesco Bizzaro} & \textbf{} & \textbf{10} & \textbf{12} & 
+		\textbf{} & \textbf{} & \textbf{} & \textbf{22}\\ 
+		\hline 
+		
+		\textbf{Gino Zaidan} & \textbf{} & \textbf{2} & \textbf{20} & 
+		\textbf{} & \textbf{} & \textbf{} & \textbf{22}\\ 
+		\hline 
+		
+		\textbf{Riccardo Rizzo} & \textbf{} & \textbf{6} & \textbf{6} & 
+		\textbf{} & \textbf{} & \textbf{10} & \textbf{22}\\ 
+		\hline 
+			
+		\hline 
+			
+		\caption{Prospetto orario - Analisi dei Requisiti}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/ar_istogramma.png}
+	\caption{Prospetto orario - Analisi dei Requisiti}
+\end{figure}
+\newpage
+
+\subsubsection{Prospetto economico}
+Nel dettaglio le ore per ogni ruolo e il costo totale: 
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{2cm} |}
+		\hline
+		\textbf{Ruolo} & \textbf{Ore} & \textbf{Costo (€)} \\ 
+		
+		\hline \hline  
+		
+		\textbf{Project Manager} & {19} & {570} \\ 
+		\hline 
+		
+		\textbf{Amministratore} & {24} & {480} \\ 
+		\hline 
+		
+		\textbf{Analista} & {48} & {1200} \\ 
+		\hline 
+		
+		\textbf{Progettista} & {} & {} \\ 
+		\hline 
+		
+		\textbf{Programmatore} & {} & {} \\ 
+		\hline 
+		
+		\textbf{Verificatore} & {40} & {600} \\ 
+		\hline 
+		
+		\textbf{Totale} & \textbf{131} & \textbf{2850} \\ 
+		\hline 
+		
+		
+		\hline 
+		
+		\caption{Prospetto economico - Analisi dei Requisiti}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/ar_torta.png}
+	\caption{Prospetto economico - Analisi dei Requisiti}
+\end{figure}
+\newpage
+
+\subsection{Analisi di Dettaglio}
+\subsubsection{Prospetto orario}
+Nel dettaglio vengono indicati quali ruoli rivestiranno i membri del team 
+\GRUPPO.
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{1cm} | p{1cm} | p{1cm}| p{1cm} | 
+			p{1cm} | p{1.7cm}|}
+		\hline
+		\textbf{Nominativo} & \textbf{PM} & \textbf{Am} & \textbf{An} & 
+		\textbf{Pt} & \textbf{Pr} & \textbf{Ve} & \textbf{Ore totali}\\ 
+		
+		\hline \hline  
+		
+		\textbf{Alberto Andriolo} & \textbf{} & \textbf{} & \textbf{4} & 
+		\textbf{} & \textbf{} & \textbf{2} & \textbf{6}\\ 
+		\hline 
+		
+		\textbf{Enrico Chiara} & \textbf{} & \textbf{4} & \textbf{} & 
+		\textbf{} & \textbf{} & \textbf{2} & \textbf{6}\\ 
+		\hline 
+		
+		\textbf{Federico Rossetto} & \textbf{} & \textbf{} & \textbf{6} & 
+		\textbf{} & \textbf{} & \textbf{} & \textbf{6}\\ 
+		\hline 
+		
+		\textbf{Francesco Bizzaro} & \textbf{3} & \textbf{} & \textbf{} & 
+		\textbf{} & \textbf{} & \textbf{4} & \textbf{7}\\ 
+		\hline 
+		
+		\textbf{Gino Zaidan} & \textbf{} & \textbf{} & \textbf{2} & 
+		\textbf{} & \textbf{} & \textbf{4} & \textbf{6}\\ 
+		\hline 
+		
+		\textbf{Riccardo Rizzo} & \textbf{} & \textbf{} & \textbf{6} & 
+		\textbf{} & \textbf{} & \textbf{} & \textbf{6}\\ 
+		\hline 
+		
+		\hline 
+		
+		\caption{Prospetto orario - Analisi di Dettaglio}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/ad_istogramma.png}
+	\caption{Prospetto orario - Analisi di Dettaglio}
+\end{figure}
+\newpage
+
+\subsubsection{Prospetto economico}
+Nel dettaglio le ore per ogni ruolo e il costo totale: 
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{2cm} |}
+		\hline
+		\textbf{Ruolo} & \textbf{Ore} & \textbf{Costo (€)} \\ 
+		
+		\hline \hline  
+		
+		\textbf{Project Manager} & {3} & {90} \\ 
+		\hline 
+		
+		\textbf{Amministratore} & {4} & {80} \\ 
+		\hline 
+		
+		\textbf{Analista} & {18} & {450} \\ 
+		\hline 
+		
+		\textbf{Progettista} & {} & {} \\ 
+		\hline 
+		
+		\textbf{Programmatore} & {} & {} \\ 
+		\hline 
+		
+		\textbf{Verificatore} & {12} & {180} \\ 
+		\hline 
+		
+		\textbf{Totale} & \textbf{37} & \textbf{800} \\ 
+		\hline 
+		
+		
+		\hline 
+		
+		\caption{Prospetto economico - Analisi di Dettaglio}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/ad_torta.png}
+	\caption{Prospetto economico - Analisi di Dettaglio}
+\end{figure}
+\newpage
+
+\subsection{Progettazione Architetturale}
+\subsubsection{Prospetto orario}
+Nel dettaglio vengono indicati quali ruoli rivestiranno i membri del team 
+\GRUPPO.
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{1cm} | p{1cm} | p{1cm}| p{1cm} | 
+			p{1cm} | p{1.7cm}|}
+		\hline
+		\textbf{Nominativo} & \textbf{PM} & \textbf{Am} & \textbf{An} & 
+		\textbf{Pt} & \textbf{Pr} & \textbf{Ve} & \textbf{Ore totali}\\ 
+		
+		\hline \hline  
+		
+		\textbf{Alberto Andriolo} & \textbf{} & \textbf{5} & \textbf{4} & 
+		\textbf{11} & \textbf{} & \textbf{7} & \textbf{27}\\ 
+		\hline 
+		
+		\textbf{Enrico Chiara} & \textbf{} & \textbf{} & \textbf{} & 
+		\textbf{18} & \textbf{} & \textbf{9} & \textbf{27}\\ 
+		\hline 
+		
+		\textbf{Federico Rossetto} & \textbf{} & \textbf{} & \textbf{8} & 
+		\textbf{19} & \textbf{} & \textbf{} & \textbf{27}\\ 
+		\hline 
+		
+		\textbf{Francesco Bizzaro} & \textbf{3} & \textbf{} & \textbf{} & 
+		\textbf{18} & \textbf{} & \textbf{6} & \textbf{27}\\ 
+		\hline 
+		
+		\textbf{Gino Zaidan} & \textbf{} & \textbf{} & \textbf{} & 
+		\textbf{17} & \textbf{} & \textbf{10} & \textbf{27}\\ 
+		\hline 
+		
+		\textbf{Riccardo Rizzo} & \textbf{6} & \textbf{} & \textbf{} & 
+		\textbf{18} & \textbf{} & \textbf{3} & \textbf{27}\\ 
+		\hline 
+		
+		\hline 
+		
+		\caption{Prospetto orario - Progettazione Architetturale}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/pa_istogramma.png}
+	\caption{Prospetto orario - Progettazione Architetturale}
+\end{figure}
+\newpage
+
+\subsubsection{Prospetto economico}
+Nel dettaglio le ore per ogni ruolo e il costo totale: 
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{2cm} |}
+		\hline
+		\textbf{Ruolo} & \textbf{Ore} & \textbf{Costo (€)} \\ 
+		
+		\hline \hline  
+		
+		\textbf{Project Manager} & {9} & {270} \\ 
+		\hline 
+		
+		\textbf{Amministratore} & {5} & {100} \\ 
+		\hline 
+		
+		\textbf{Analista} & {12} & {300} \\ 
+		\hline 
+		
+		\textbf{Progettista} & {101} & {2222} \\ 
+		\hline 
+		
+		\textbf{Programmatore} & {} & {} \\ 
+		\hline 
+		
+		\textbf{Verificatore} & {35} & {525} \\ 
+		\hline 
+		
+		\textbf{Totale} & \textbf{162} & \textbf{3417} \\ 
+		\hline 
+		
+		
+		\hline 
+		
+		\caption{Prospetto economico - Progettazione Architetturale}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/pa_torta.png}
+	\caption{Prospetto economico - Progettazione Architetturale}
+\end{figure}
+\newpage
+
+\subsection{Progettazione di Dettaglio e Codifica}
+\subsubsection{Prospetto orario}
+Nel dettaglio vengono indicati quali ruoli rivestiranno i membri del team 
+\GRUPPO.
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{1cm} | p{1cm} | p{1cm}| p{1cm} | 
+			p{1cm} | p{1.7cm}|}
+		\hline
+		\textbf{Nominativo} & \textbf{PM} & \textbf{Am} & \textbf{An} & 
+		\textbf{Pt} & \textbf{Pr} & \textbf{Ve} & \textbf{Ore totali}\\ 
+		
+		\hline \hline  
+		
+		\textbf{Alberto Andriolo} & \textbf{} & \textbf{} & \textbf{8} & 
+		\textbf{12} & \textbf{10} & \textbf{25} & \textbf{55}\\ 
+		\hline 
+		
+		\textbf{Enrico Chiara} & \textbf{} & \textbf{2} & \textbf{} & 
+		\textbf{8} & \textbf{15} & \textbf{30} & \textbf{55}\\ 
+		\hline 
+		
+		\textbf{Federico Rossetto} & \textbf{10} & \textbf{} & \textbf{} & 
+		\textbf{18} & \textbf{27} & \textbf{} & \textbf{55}\\ 
+		\hline 
+		
+		\textbf{Francesco Bizzaro} & \textbf{} & \textbf{} & \textbf{} & 
+		\textbf{15} & \textbf{30} & \textbf{10} & \textbf{55}\\ 
+		\hline 
+		
+		\textbf{Gino Zaidan} & \textbf{} & \textbf{4} & \textbf{} & 
+		\textbf{16} & \textbf{25} & \textbf{10} & \textbf{55}\\ 
+		\hline 
+		
+		\textbf{Riccardo Rizzo} & \textbf{} & \textbf{} & \textbf{} & 
+		\textbf{15} & \textbf{25} & \textbf{15} & \textbf{55}\\ 
+		\hline 
+		
+		\hline 
+		
+		\caption{Prospetto orario - Progettazione di Dettaglio e Codifica}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/pdc_istogramma.png}
+	\caption{Prospetto orario - Progettazione di Dettaglio e Codifica}
+\end{figure}
+\newpage
+
+\subsubsection{Prospetto economico}
+Nel dettaglio le ore per ogni ruolo e il costo totale: 
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{2cm} |}
+		\hline
+		\textbf{Ruolo} & \textbf{Ore} & \textbf{Costo (€)} \\ 
+		
+		\hline \hline  
+		
+		\textbf{Project Manager} & {10} & {300} \\ 
+		\hline 
+		
+		\textbf{Amministratore} & {6} & {120} \\ 
+		\hline 
+		
+		\textbf{Analista} & {8} & {200} \\ 
+		\hline 
+		
+		\textbf{Progettista} & {84} & {1848} \\ 
+		\hline 
+		
+		\textbf{Programmatore} & {132} & {1980} \\ 
+		\hline 
+		
+		\textbf{Verificatore} & {90} & {1350} \\ 
+		\hline 
+		
+		\textbf{Totale} & \textbf{330} & \textbf{5798} \\ 
+		\hline 
+		
+		
+		\hline 
+		
+		\caption{Prospetto economico - Progettazione di Dettaglio e Codifica}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/pdc_torta.png}
+	\caption{Prospetto economico - Progettazione di Dettaglio e Codifica}
+\end{figure}
+\newpage
+
+\subsection{Validazione}
+\subsubsection{Prospetto orario}
+Nel dettaglio vengono indicati quali ruoli rivestiranno i membri del team 
+\GRUPPO.
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{1cm} | p{1cm} | p{1cm}| p{1cm} | 
+			p{1cm} | p{1.7cm}|}
+		\hline
+		\textbf{Nominativo} & \textbf{PM} & \textbf{Am} & \textbf{An} & 
+		\textbf{Pt} & \textbf{Pr} & \textbf{Ve} & \textbf{Ore totali}\\ 
+		
+		\hline \hline  
+		
+		\textbf{Alberto Andriolo} & \textbf{} & \textbf{2} & \textbf{} & 
+		\textbf{6} & \textbf{} & \textbf{16} & \textbf{24}\\ 
+		\hline 
+		
+		\textbf{Enrico Chiara} & \textbf{} & \textbf{} & \textbf{} & 
+		\textbf{7} & \textbf{} & \textbf{17} & \textbf{24}\\ 
+		\hline 
+		
+		\textbf{Federico Rossetto} & \textbf{} & \textbf{} & \textbf{} & 
+		\textbf{} & \textbf{5} & \textbf{20} & \textbf{25}\\ 
+		\hline 
+		
+		\textbf{Francesco Bizzaro} & \textbf{} & \textbf{} & \textbf{} & 
+		\textbf{} & \textbf{6} & \textbf{18} & \textbf{24}\\ 
+		\hline 
+		
+		\textbf{Gino Zaidan} & \textbf{6} & \textbf{} & \textbf{} & 
+		\textbf{} & \textbf{8} & \textbf{10} & \textbf{24}\\ 
+		\hline 
+		
+		\textbf{Riccardo Rizzo} & \textbf{} & \textbf{} & \textbf{} & 
+		\textbf{8} & \textbf{} & \textbf{16} & \textbf{24}\\ 
+		\hline 
+		
+		\hline 
+		
+		\caption{Prospetto orario - Validazione}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/va_istogramma.png}
+	\caption{Prospetto orario - Validazione}
+\end{figure}
+\newpage
+
+\subsubsection{Prospetto economico}
+Nel dettaglio le ore per ogni ruolo e il costo totale: 
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{2cm} |}
+		\hline
+		\textbf{Ruolo} & \textbf{Ore} & \textbf{Costo (€)} \\ 
+		
+		\hline \hline  
+		
+		\textbf{Project Manager} & {6} & {180} \\ 
+		\hline 
+		
+		\textbf{Amministratore} & {2} & {40} \\ 
+		\hline 
+		
+		\textbf{Analista} & {0} & {0} \\ 
+		\hline 
+		
+		\textbf{Progettista} & {21} & {462} \\ 
+		\hline 
+		
+		\textbf{Programmatore} & {19} & {285} \\ 
+		\hline 
+		
+		\textbf{Verificatore} & {97} & {1455} \\ 
+		\hline 
+		
+		\textbf{Totale} & \textbf{145} & \textbf{2422} \\ 
+		\hline 
+		
+		
+		\hline 
+		
+		\caption{Prospetto economico - Validazione}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/va_torta.png}
+	\caption{Prospetto economico - Validazione}
+\end{figure}
+\newpage
+
+\subsection{Riepilogo conclusivo}
+\subsubsection{Prospetto orario totale}
+Nel dettaglio vengono indicati quali ruoli rivestiranno i membri del team 
+\GRUPPO.
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{1cm} | p{1cm} | p{1cm}| p{1cm} | 
+			p{1cm} | p{1.7cm}|}
+		\hline
+		\textbf{Nominativo} & \textbf{PM} & \textbf{Am} & \textbf{An} & 
+		\textbf{Pt} & \textbf{Pr} & \textbf{Ve} & \textbf{Ore totali}\\ 
+		
+		\hline \hline  
+		
+		\textbf{Alberto Andriolo} & \textbf{13} & \textbf{7} & \textbf{16} & 
+		\textbf{29} & \textbf{10} & \textbf{59} & \textbf{134}\\ 
+		\hline 
+		
+		\textbf{Enrico Chiara} & \textbf{6} & \textbf{6} & \textbf{10} & 
+		\textbf{33} & \textbf{15} & \textbf{64} & \textbf{134}\\ 
+		\hline 
+		
+		\textbf{Federico Rossetto} & \textbf{10} & \textbf{6} & \textbf{14} & 
+		\textbf{37} & \textbf{32} & \textbf{35} & \textbf{134}\\ 
+		\hline 
+		
+		\textbf{Francesco Bizzaro} & \textbf{6} & \textbf{10} & \textbf{12} & 
+		\textbf{33} & \textbf{36} & \textbf{38} & \textbf{135}\\ 
+		\hline 
+		
+		\textbf{Gino Zaidan} & \textbf{6} & \textbf{6} & \textbf{22} & 
+		\textbf{33} & \textbf{33} & \textbf{34} & \textbf{134}\\ 
+		\hline 
+		
+		\textbf{Riccardo Rizzo} & \textbf{6} & \textbf{6} & \textbf{12} & 
+		\textbf{41} & \textbf{25} & \textbf{44} & \textbf{134}\\ 
+		\hline 
+		
+		\hline 
+		
+		\caption{Prospetto orario - Riepilogo conclusivo totale}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/tot_istogramma.png}
+	\caption{Prospetto orario - Riepilogo conclusivo totale}
+\end{figure}
+\newpage
+
+\subsubsection{Prospetto economico totale}
+Nel dettaglio le ore per ogni ruolo e il costo totale: 
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{2cm} |}
+		\hline
+		\textbf{Ruolo} & \textbf{Ore} & \textbf{Costo (€)} \\ 
+		
+		\hline \hline  
+		
+		\textbf{Project Manager} & {47} & {1410} \\ 
+		\hline 
+		
+		\textbf{Amministratore} & {41} & {820} \\ 
+		\hline 
+		
+		\textbf{Analista} & {86} & {2150} \\ 
+		\hline 
+		
+		\textbf{Progettista} & {206} & {4532} \\ 
+		\hline 
+		
+		\textbf{Programmatore} & {151} & {2265} \\ 
+		\hline 
+		
+		\textbf{Verificatore} & {274} & {4110} \\ 
+		\hline 
+		
+		\textbf{Totale} & \textbf{805} & \textbf{15287} \\ 
+		\hline 
+		
+		
+		\hline 
+		
+		\caption{Prospetto economico - Riepilogo conclusivo totale}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/tot_torta.png}
+	\caption{Prospetto economico - Riepilogo conclusivo totale}
+\end{figure}
+\newpage
+
+\subsubsection{Prospetto orario rendicontato}
+Nel dettaglio vengono indicati quali ruoli rivestiranno i membri del team 
+\GRUPPO. Le ore totali qui presentate differiscono di circa 30 ore/persona di lavoro. 
+Queste ore sono dedicate alla formazione dei componenti del \textit{team} sulle tecnologie
+necessarie allo sviluppo del progetto e pertanto non sono imputabili al Proponente.
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{1cm} | p{1cm} | p{1cm}| p{1cm} | 
+			p{1cm} | p{1.7cm}|}
+		\hline
+		\textbf{Nominativo} & \textbf{PM} & \textbf{Am} & \textbf{An} & 
+		\textbf{Pt} & \textbf{Pr} & \textbf{Ve} & \textbf{Ore totali}\\ 
+		
+		\hline \hline  
+		
+		\textbf{Alberto Andriolo} & \textbf{0} & \textbf{7} & \textbf{12} & 
+		\textbf{29} & \textbf{10} & \textbf{47} & \textbf{105}\\ 
+		\hline 
+		
+		\textbf{Enrico Chiara} & \textbf{0} & \textbf{2} & \textbf{0} & 
+		\textbf{33} & \textbf{15} & \textbf{55} & \textbf{105}\\ 
+		\hline 
+		
+		\textbf{Federico Rossetto} & \textbf{9} & \textbf{0} & \textbf{8} & 
+		\textbf{37} & \textbf{32} & \textbf{19} & \textbf{105}\\ 
+		\hline 
+		
+		\textbf{Francesco Bizzaro} & \textbf{3} & \textbf{0} & \textbf{0} & 
+		\textbf{33} & \textbf{36} & \textbf{33} & \textbf{105}\\ 
+		\hline 
+		
+		\textbf{Gino Zaidan} & \textbf{6} & \textbf{4} & \textbf{0} & 
+		\textbf{33} & \textbf{33} & \textbf{29} & \textbf{105}\\ 
+		\hline 
+		
+		\textbf{Riccardo Rizzo} & \textbf{6} & \textbf{6} & \textbf{6} & 
+		\textbf{41} & \textbf{25} & \textbf{33} & \textbf{105}\\ 
+		\hline 
+		
+		\hline 
+		
+		\caption{Prospetto orario - Riepilogo conclusivo rendicontato}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/rend_istogramma.png}
+	\caption{Prospetto orario - Riepilogo conclusivo rendicontato}
+\end{figure}
+\newpage
+
+\subsubsection{Prospetto economico rendicontato}
+Nel dettaglio le ore per ogni ruolo e il costo totale: 
+\begin{center}
+	\def\arraystretch{1.6}
+	\bgroup
+	\begin{longtable}{| p{4cm} | p{1cm} | p{2cm} |}
+		\hline
+		\textbf{Ruolo} & \textbf{Ore} & \textbf{Costo (€)} \\ 
+		
+		\hline \hline  
+		
+		\textbf{Project Manager} & {24} & {720} \\ 
+		\hline 
+		
+		\textbf{Amministratore} & {13} & {260} \\ 
+		\hline 
+		
+		\textbf{Analista} & {20} & {500} \\ 
+		\hline 
+		
+		\textbf{Progettista} & {206} & {4532} \\ 
+		\hline 
+		
+		\textbf{Programmatore} & {151} & {2265} \\ 
+		\hline 
+		
+		\textbf{Verificatore} & {216} & {3240} \\ 
+		\hline 
+		
+		\textbf{Totale} & \textbf{630} & \textbf{11517} \\ 
+		\hline 
+		
+		
+		\hline 
+		
+		\caption{Prospetto economico - Riepilogo conclusivo rendicontato}
+	\end{longtable}
+	\egroup
+\end{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 14cm]{immagini/rend_torta.png}
+	\caption{Prospetto economico - Riepilogo conclusivo rendicontato}
+\end{figure}
+\newpage

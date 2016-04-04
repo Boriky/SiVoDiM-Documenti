@@ -1,6 +1,8 @@
 % definizione indice
 \ifthenelse{\equal{\INDICE}{true}}
-	{\tableofcontents \newpage}{}
+	{\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+	\tableofcontents \newpage}{}
 
 % definizione lista tabelle
 \ifthenelse{\equal{\TABELLE}{true}} 
