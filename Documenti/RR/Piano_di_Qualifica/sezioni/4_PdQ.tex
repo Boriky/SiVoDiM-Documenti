@@ -1,15 +1,16 @@
 \section{Standard di qualità}
 
 \subsection{Standard ISO/IEC 15504}
+\label{cap: sezione 4.1 Standard ISO/IEC 15504}
 
-Questo standard descrive come i processi debbano essere controllati costantemente, al fine di rilevare possibili rischi intrinsechi che potrebbero impedire di raggiungere gli obiettivi prefissati. I risultati delle singole valutazioni devono essere ripetibili, oggettivi e comparabili per far si che contribuiscano al miglioramento effettivo dei processi in esame. \newline
+Questo standard descrive come i processi debbano essere controllati costantemente, al fine di rilevare possibili rischi intrinsechi che potrebbero impedire di raggiungere gli obiettivi prefissati. I risultati delle singole valutazioni devono essere ripetibili, oggettivi e comparabili per far sì che contribuiscano al miglioramento effettivo dei processi in esame. \newline
 
-Il modello SPICE\G\ definisce 6 livelli di maturità del processo:
+Il modello SPICE\G\ definisce sei livelli di maturità del processo:
 
 \begin{itemize}
 	\item \textbf{Incomplete process:} il processo non viene attuato o non raggiunge i risultati previsti;
 	
-	\item \textbf{Performed:} il processo viene completato e raggiunge i risultati previsti.
+	\item \textbf{Performed:} il processo viene completato e raggiunge i risultati previsti
 	\begin{itemize}
 		\item\textbf{Process performance attribute:} capacità di raggiungere 
 		gli obiettivi.
@@ -50,50 +51,63 @@ Ogni attributo di processo descritto è misurabile e lo standard predispone quat
 	\item \textbf{Non posseduto:} 0\% - 15\%;
 	\item \textbf{Parzialmente posseduto:} 15\% - 50\%;
 	\item \textbf{Largamente posseduto:} 50\% - 85\%;
-	\item \textbf{Completamente posseduto:} 85\% - 100\%;
+	\item \textbf{Completamente posseduto:} 85\% - 100\%.
 \end{itemize}
 
 \subsection{Ciclo di Deming}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width= 11.5cm]{immagini/pdca.png}
+	\caption{Ciclo di Deming}
+\end{figure}
+
 Il ciclo PDCA\G\ è suddiviso in 4 fasi:
 
 \begin{itemize}
-	\item \textbf{Plan:} fase di pianificazione che definisce le attività, le risorse, le scadenze e le responsabilità;
-	
-	\item \textbf{Do:} fase di esecuzione delle attività programmate;
-	
-	\item \textbf{Check:} fase di verifica nella quale vengono controllati i risultati della fase precedente, e confronta i prodotti effettivi con quelli attesi;
-	
-	\item \textbf{Act:} fase che prevede il miglioramento continuo dei processi, utilizzando i risultati della verifica per modificare le parti critiche dei processi.
+	\item \textbf{Plan:} fase di pianificazione che definisce:
+\begin{itemize}
+	\item[-] Gli obiettivi da raggiungere;
+	\item[-] Come svolgere le attività per conseguirli, tenendo in considerazione le risorse disponibili e le scadenze;
+	\item[-] Le responsabilità di chi va ad eseguire le attività;
+	\item[-] Le metriche per valutare i processi.
 \end{itemize}
+	
+	\item \textbf{Do:} fase di implementazione ed esecuzione delle strategie progettate nella fase precedente;
+	
+	\item \textbf{Check:} fase di verifica nella quale vengono controllati i risultati della fase precedente (secondo le metriche fissate nella fase \textit{Plan}) e in cui si confrontano i prodotti effettivi con quelli attesi;
+	
+	\item \textbf{Act:} fase che prevede il miglioramento dei processi: utilizzando i risultati della verifica, si progettano modifiche ai processi per migliorarli. Nello svolgimento di questa attività viene tenuto conto delle \textit{best practice\G}. Tutte le decisioni prese in questa fase vengono implementate a partire dalla successiva fase di \textit{planning}.
+\end{itemize}
+Lo scopo di questo ciclo è il continuo incremento qualitativo del processo di sviluppo e, conseguentemente, del prodotto. L'appoggio agli \textit{standard} e alle \textit{best practice} permette di consolidare il livello raggiunto e di non retrocedere. Il miglioramento può progredire infinitamente nel tempo, data l'assenza di limiti fissati.
 
 \subsection{Standard ISO/IEC 9126}
 
-Questo standard ISO\G/IEC\G\ 9126 è stato creato con lo scopo di descrivere gli 
+Lo standard ISO\G/IEC\G\ 9126 è stato creato con lo scopo di descrivere gli 
 obiettivi qualitativi del prodotto e definire le metriche che possono misurare 
-il raggiungimento di questi obiettivi. Vi sono infatti criteri suddivisi in tre 
+il raggiungimento di tali obiettivi. Vi sono infatti dei criteri suddivisi in tre 
 aree:
 
 \begin{itemize}
-	\item \textbf{Qualità in uso:} è la qualità del prodotto \textit{software}, 
-	visto dall'utilizzatore che ne fa uso in uno specifico contesto;
+	\item \textbf{Qualità in uso:} è la qualità del prodotto \textit{software} 
+	visto dall'utilizzatore, che ne fa uso in uno specifico contesto;
 	\item \textbf{Qualità esterna:} è la qualità del prodotto 
-	\textit{software}, visto dall'esterno quando viene eseguito e testato in un 
+	\textit{software} visto dall'esterno, quando viene eseguito e testato in un 
 	ambiente di prova;
 	\item \textbf{Qualità interna:} è la qualità del prodotto 
-	\textit{software}, visto dall'interno, facendo riferimento a 
+	\textit{software} visto dall'interno, facendo riferimento a 
 	caratteristiche implementative, come l'architettura o il codice che ne 
 	deriva.
 \end{itemize}
 Essendo inizialmente impossibile testare la qualità in uso, si è deciso di 
 focalizzarsi sulla qualità interna ed esterna. Nello standard sono previste sei 
-caratteristiche qualitative principali, suddivise poi a sua volta in 
+caratteristiche qualitative principali, suddivise a loro volta in 
 sottocategorie che possono essere misurate quantitativamente:
 
 \begin{itemize}
 	\item \textbf{Funzionalità:} capacità del prodotto di fornire le funzioni richieste
 	\begin{itemize}
-		\item \textbf{Idoneità:} capacità del prodotto di fornire un insieme di funzioni appropriate per un attività;
+		\item \textbf{Idoneità:} capacità del prodotto di fornire un insieme di funzioni appropriate per un'attività;
 		\item \textbf{Accuratezza:} capacità del prodotto di fornire risultati 
 		coerenti e corretti a seconda del grado di precisione richiesto;
 		\item \textbf{Interoperabilità:} capacità interattiva del prodotto 
@@ -114,18 +128,18 @@ sottocategorie che possono essere misurate quantitativamente:
 		di mantenere un adeguato livello di prestazioni nonostante errori o 
 		violazioni dell'interfaccia;
 		\item \textbf{Capacità di recupero:} capacità del \textit{software} di 
-		ristabilire un livello di \textit{performance} adeguato e recuperare 
+		ristabilire un livello di \textit{performance} adeguato e di recuperare 
 		dati in caso di errori;
 		\item \textbf{Conformità di affidabilità:} capacità del prodotto 
 		\textit{software} di essere aderente allo standard in materia di 
 		affidabilità.
 	\end{itemize}
 	
-	\item \textbf{Usabilità:} capacità del prodotto di essere facilmente comprensibile ed usabile, e di essere interessante per l'utente
+	\item \textbf{Usabilità:} capacità del prodotto di essere facilmente comprensibile ed usabile, e di risultare interessante per l'utente
 	
 	\begin{itemize}
 		\item \textbf{Intelligibilità:} capacità del \textit{software} di 
-		permettere all'utente di capire se il prodotto è adeguato e possa 
+		permettere all'utente di capire se il prodotto è adeguato e se possa 
 		essere utilizzato per dei compiti particolari;
 		\item \textbf{Apprendibilità:} capacità del \textit{software} di 
 		consentire all'utente di imparare ad utilizzare le sue funzionalità;
@@ -133,7 +147,7 @@ sottocategorie che possono essere misurate quantitativamente:
 		consentire ai suoi utenti di essere usato;
 		\item \textbf{Attrattività:} capacità del \textit{software} di creare 
 		interesse negli utenti;
-		\item \textbf{Conformità di usabilità:} capacità del prodotto 
+		\item \textbf{Conformità di usabilità:} capacità del 
 		\textit{software} di essere aderente allo standard in materia di 
 		usabilità.
 	\end{itemize}
@@ -145,14 +159,14 @@ sottocategorie che possono essere misurate quantitativamente:
 		le sue funzionalità;
 		\item \textbf{Utilizzo di risorse:} capacità del \textit{software} di 
 		utilizzare le risorse adeguate per la sua esecuzione;
-		\item \textbf{Conformità di efficienza:} capacità del prodotto 
+		\item \textbf{Conformità di efficienza:} capacità del 
 		\textit{software} di essere aderente allo standard in materia di 
 		efficienza.
 	\end{itemize}
 	
 	\item \textbf{Manutenibilità:} capacità del prodotto di essere modificato e 
-	aggiornato. Queste modifiche o aggiornamenti possono essere correzioni, 
-	miglioramenti o adattamenti del \textit{software} a cambiamenti ambientali, 
+	aggiornato. Tali modifiche o aggiornamenti possono rispecchiare correzioni, 
+	miglioramenti o adattamenti del \textit{software} nei confronti di cambiamenti ambientali, 
 	di specifiche o delle funzionalità
 	\begin{itemize}
 		\item \textbf{Analizzabilità:} capacità del \textit{software} di poter 
@@ -188,3 +202,4 @@ sottocategorie che possono essere misurate quantitativamente:
 	\end{itemize}
 	
 \end{itemize}
+\newpage

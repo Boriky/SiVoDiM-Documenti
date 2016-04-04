@@ -1,0 +1,214 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Professional Formal Letter
+% LaTeX Template
+% Version 1.0 (28/12/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Brian Moses (http://www.ms.uky.edu/~math/Resources/Templates/LaTeX/)
+% with extensive modifications by Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper]{letter} % Specify the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc)
+
+\usepackage{graphicx} % Required for including pictures
+\usepackage{microtype} % Improves typography
+\usepackage[T1]{fontenc}   % codifica dei font in uscita
+
+%prove_font
+\usepackage[default]{gillius}
+\renewcommand{\familydefault}{\sfdefault}
+%\usepackage{times}
+%\textsf{Arial}
+%end_prove_font
+
+\usepackage[utf8]{inputenc}   % lettere accentate da tastiera
+\usepackage[italian]{babel}   % lingua principale del documento
+
+% Create a new command for the horizontal rule in the document which allows thickness specification
+\makeatletter
+\def\vhrulefill#1{\leavevmode\leaders\hrule\@height#1\hfill \kern\z@}
+\makeatother
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT MARGINS
+%----------------------------------------------------------------------------------------
+
+\textwidth 6.75in
+\textheight 9.25in
+\oddsidemargin -.25in
+\evensidemargin -.25in
+\topmargin -1in
+\longindentation 0.50\textwidth
+\parindent 0.4in
+
+%----------------------------------------------------------------------------------------
+%	SENDER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\def\Who{Stark Labs} % Your name
+\def\What{} % Your title
+\def\Where{Università degli Studi di Padova} % Your department/institution
+\def\Wheree{Dipartimento di Matematica}
+\def\Email{starklabs.swe@gmail.com} % Your email address
+\def\Date{1 aprile 2016}
+
+%----------------------------------------------------------------------------------------
+%	HEADER AND FROM ADDRESS STRUCTURE
+%----------------------------------------------------------------------------------------
+
+\address{
+\includegraphics[width=4cm]{immagini/logo.png} % Include the logo of your 
+%institution
+\hspace{5.1in} % Position of the institution logo, increase to move left, decrease to move right
+\vskip -0.75in~\\ % Position of the text in relation to the institution logo, increase to move down, decrease to move up
+\Large\hspace{1.5in} \hfill ~\\[0.05in] % First line of institution name, adjust hspace if your logo is wide
+\hspace{1.5in} \hfill \normalsize % Second line of institution name, adjust hspace if your logo is wide
+\makebox[0ex][r]{\bf \Who \What }\hspace{0.08in} % Print your name and title with a little whitespace to the right
+~\\[-0.11in] % Reduce the whitespace above the horizontal rule
+\hspace{0in}\vhrulefill{1pt} \\ % Horizontal rule, adjust hspace if your logo is wide and \vhrulefill for the thickness of the rule
+\hspace{\fill}\parbox[t]{2.85in}{ % Create a box for your details underneath the horizontal rule on the right
+\footnotesize % Use a smaller font size for the details
+}
+\hspace{-1.4in} % Horizontal position of this block, increase to move left, decrease to move right
+\vspace{-1in} % Move the letter content up for a more compact look
+}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS STRUCTURE
+%----------------------------------------------------------------------------------------
+
+\def\opening#1{\thispagestyle{empty}
+{\centering\fromaddress \vspace{0.6in} \\ % Print the header and from address here, add whitespace to move date down
+\hspace*{\longindentation}\hspace*{\fill}\par} % Print today's date, remove \today to not display it
+{\raggedright \toname \\ \toaddress \par} % Print the to name and address
+\vspace{0.4in} % White space after the to address
+\noindent #1 % Print the opening line
+% Uncomment the 4 lines below to print a footnote with custom text
+%\def\thefootnote{}
+%\def\footnoterule{\hrule}
+%\footnotetext{\hspace*{\fill}{\footnotesize\em Footnote text}}
+%\def\thefootnote{\arabic{footnote}}
+}
+
+%----------------------------------------------------------------------------------------
+%	SIGNATURE STRUCTURE
+%----------------------------------------------------------------------------------------
+
+\signature{\Who \What} % The signature is a combination of your name and title
+\long\def\closing#1{
+\vspace{0.1in} % Some whitespace after the letter content and before the signature
+\noindent % Stop paragraph indentation
+\hspace*{\longindentation} % Move the signature right
+\parbox{\indentedwidth}{\raggedright
+#1 % Print the signature text
+\vskip 0.65in % Whitespace between the signature text and your name
+}} % Print your name and title
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\begin{letter}
+{
+\hspace{15cm}1 aprile 2016
+
+\textbf{Alla cortese attenzione del Committente:}\\
+Prof. Tullio Vardanega\\
+Prof. Riccardo Cardin\\
+Università degli Studi di Padova\\
+Dipartimento di Matematica\\
+Via Trieste 63\\
+35121, Padova
+
+\vspace{1cm}
+\textbf{Oggetto}: presentazione della proposta per il capitolato C6
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+
+\opening{Egregio Prof. Vardanega,}
+\\
+\\
+ con la presente, il gruppo Stark Labs intende comunicarLe ufficialmente l’impegno alla realizzazione del prodotto da Lei commissionato, denominato:
+\begin{center}
+\textbf{SiVoDiM: Sintesi Vocale su Dispositivi Mobili}\\
+\end{center}
+L’offerta è corredata dai seguenti documenti, allegati alla presente lettera:
+
+\begin{itemize}
+	\item{\textit{Analisi dei Requisiti v1.0.0 (esterni/analisi\_dei\_requisiti\_v1\_0\_0.pdf);}}
+	\item{\textit{Glossario v1.0.0 (esterni/glossario\_v1\_0\_0.pdf);}}
+	\item{\textit{Norme di Progetto v1.0.0 (interni/norme\_di\_progetto\_v1\_0\_0.pdf);}}		
+	\item{\textit{Piano di Progetto v1.0.0 (esterni/piano\_di\_progetto\_v1\_0\_0.pdf);}}
+	\item{\textit{Piano di Qualifica v1.0.0 (esterni/piano\_di\_qualifica\_v1\_0\_0.pdf);}}
+	\item{\textit{Studio di Fattibilità v1.0.0 (interni/studio\_di\_fattibilita\_v1\_0\_0.pdf);}}			
+	\item{\textit{Verbale Esterno 09/03/2016 v1.0.0 (esterni/verbale\_09\_03\_2016\_v1\_0\_0.pdf);}}
+	\item{\textit{Verbale Esterno 18/03/2016 v1.0.0 (esterni/verbale\_18\_03\_2016\_v1\_0\_0.pdf).}}
+\end{itemize}
+Il gruppo Stark Labs ha stimato di consegnare il prodotto richiesto entro il 
+mese di luglio 2016 con un preventivo di costo pari a 11517 €. Tale preventivo è stato calcolato in base al numero dei membri del \textit{team}. Pertanto il totale risulta essere inferiore a 13000 €. 
+
+\noindent
+I dettagli di analisi del prodotto, di pianificazione e di qualità sono trattati in maniera approfondita nei documenti allegati.
+\newpage
+
+\noindent
+L'organigramma del gruppo è il seguente:
+\begin{center}
+	%\begin{table}
+		\centering
+		\bgroup
+		\def\arraystretch{1.6}
+		\begin{tabular}{| c | c | c |}
+			\hline
+			\textbf{Nominativo} & \textbf{Matricola} & \textbf{Indirizzo di posta elettronica} \\ \hline \hline 
+			Alberto Andriolo & 1074665 & alberto.andriolo.1@studenti.unipd.it 
+			\\ \hline
+			Enrico Chiara & 1005608 & enricochiara@icloud.com \\ \hline
+			Federico Rossetto & 1031919 & federico.rossetto@studenti.unipd.it \\ \hline
+			Francesco Bizzaro & 1069586 & francescob994@gmail.com  \\ \hline  
+			Gino Zaidan & 1008249 & zaidan90@hotmail.it  \\ \hline 
+			Riccardo Rizzo & 1054776 & rizzoricky@gmail.com  \\ \hline
+		\end{tabular}
+	%\end{table}
+	\egroup
+\end{center}
+
+\noindent
+	Rimango a Sua completa disposizione per ogni ulteriore chiarimento.\\
+	La ringrazio anticipatamente della Sua attenzione.
+\\
+\\
+Con i saluti più cordiali,
+\\
+\\
+\begin{flushright}
+Il responsabile, Alberto Andriolo \\
+%\includegraphics[width=5cm]{immagini/firma_alberto.png}
+\end{flushright}
+
+
+\closing{}
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+\end{document}

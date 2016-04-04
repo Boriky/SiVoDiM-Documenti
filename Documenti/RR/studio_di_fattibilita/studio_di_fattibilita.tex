@@ -1,0 +1,49 @@
+% importa variabili globali
+\input {../template/config.tex}
+
+
+% definizione variabili locali
+\def\DOCUMENTO{Studio di Fattibilit\`a}
+\def\VERSIONE{1.0.0}
+
+\def\DESCRIZIONE{<Info documento>}
+
+\def\REDATTORE {Francesco Bizzaro\\ & Gino Zaidan}
+\def\VERIFICATORE {Enrico Chiara\\ & Riccardo Rizzo}
+\def\RESPONSABILE {Alberto Andriolo}
+
+\def\USO {Interno}
+
+\def\DISTRIBUZIONE {\GRUPPO{}\\ & \COMMITTENTE{}\\}
+
+\def\DESCRIZIONE {Il documento espone il rapporto sull'analisi eseguita dal gruppo Stark Labs che ha portato alla scelta del capitolato SiVoDiM}
+
+
+% abilita (true) / disabilita (false) indice, lista tabelle, lista figure
+\def\INDICE	{true}
+\def\TABELLE {false}
+\def\FIGURE {false}
+
+
+% importa struttura
+\input {../template/structure.tex}
+
+%importa il registro
+\input {sezioni/registro_sdf.tex}
+
+% importa indici
+\input {../template/index.tex}
+
+% importa parti documento
+\input {sezioni/1_sdf.tex}
+\input {sezioni/2_sdf.tex}
+\input {sezioni/3_sdf.tex}
+
+%\input {sections/nomesezione}
+%\newpage
+
+% ...
+
+%\printglossaries
+
+\end{document}

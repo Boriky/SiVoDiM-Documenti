@@ -6,18 +6,15 @@
 \def\DOCUMENTO{Norme di Progetto}
 \def\VERSIONE{1.0.0}
 
-\def\DESCRIZIONE{<Info documento>}
+\def\REDATTORE {Enrico Chiara\\ & Gino Zaidan\\ & Riccardo Rizzo}
+\def\VERIFICATORE {Federico Rossetto\\ & Riccardo Rizzo}
+\def\RESPONSABILE {Alberto Andriolo}
 
-\def\REDATTORE {<Redattore>}
-\def\VERIFICATORE {<Verificatore>}
-\def\RESPONSABILE {<Responsabile>}
-
-\def\USO {<Uso>}
+\def\USO {Interno}
 
 \def\DISTRIBUZIONE {\GRUPPO{}\\ & \COMMITTENTE{}\\}
 
-\def\DESCRIZIONE {Documento riguardante l'insieme di norme stabilite dal gruppo 
-StarkLabs per la realizzazione di SiVoDiM.}
+\def\DESCRIZIONE {Documento contenente l'insieme di norme rispettate dal gruppo \GRUPPO\ per la realizzazione del progetto \PROGETTO}
 
 
 % abilita (true) / disabilita (false) indice, lista tabelle, lista figure
@@ -29,18 +26,17 @@ StarkLabs per la realizzazione di SiVoDiM.}
 % importa struttura
 \input {../template/structure.tex}
 
+% registro
+\input {sezioni/registro_ndp.tex}
+
 % importa indici
 \input {../template/index.tex}
 
-% NB MANCA IL REGISTRO!!!
-% stesura: Bizzaro Francesco, Chiara Enrico, Rizzo Riccardo, Zaidan Gino 07/03/2016-08/03/2016
-% verifica:  Rizzo Riccardo 08/03/2016
-
 % importa parti documento
-\input {sezioni/1_NdP.tex}
-\input {sezioni/2_NdP.tex}
-\input {sezioni/3_NdP.tex}
-\input {sezioni/4_NdP.tex}
+\input {sezioni/1_ndp.tex}
+\input {sezioni/2_ndp.tex}
+\input {sezioni/3_ndp.tex}
+\input {sezioni/4_ndp.tex}
 
 %\input {sections/nomesezione}
 %\newpage
