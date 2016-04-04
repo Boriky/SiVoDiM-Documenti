@@ -1,0 +1,48 @@
+\section{Ordine del giorno}
+Di seguito sono trascritti gli argomenti che il gruppo ha trattato durante la 
+riunione con il referente Giulio Paci di MIVOQ s.r.l.. Il \textit{meeting} ha avuto carattere 
+informale e si è svolto mediante una conferenza su Skype\G .
+
+\subsection{Approfondimento sul processo di campionamento}
+Il campionamento consiste nella lettura da parte dell'utente di un certo numero 
+di frasi che vengono registrate e inviate al server di MIVOQ. Una volta elaborati i dati 
+ricevuti, il server crea un nuovo modello di voce che può essere scaricato o utilizzato direttamente dal servizio \textit{web} dell'azienda. 
+Il \textit{file} scaricato è compresso all'interno di un pacchetto in formato .jar\G, la cui dimensione si attesta mediamente attorno ai 3 MB\G, 
+e che contiene tutti i dati relativi alla voce dell'utente. Tali informazioni consistono in modelli 
+statistici del timbro vocale, necessari per una corretta sintesi della voce dell'utente. 
+L'intero processo può essere completato nel corso di più fasi. Pertanto si consente all'utente di interrompere il campionamento e di riprenderlo in un 
+secondo momento, conservando i dati elaborati precedentemente all'interruzione.
+
+\subsection{Modalità di accesso al sistema di campionamento dall'applicazione}
+Il meccanismo che l'azienda proponente vuole implementare è basato su OAuth 2.0\G. Per tale ragione,
+gli utenti dovranno consentire all'applicazione di avere accesso ai loro dati: 
+ogni utente dovrà quindi essere in possesso di un \textit{account}.
+
+\subsection{Utilizzo del modello di campionamento}
+Il modello della voce campionata rimane privato e utilizzabile solamente dall'utente. 
+Il modello è anche installabile nel server, ma una volta installato 
+questo diventa pubblico e accessibile a tutti gli utenti.
+
+\subsection{Utilizzo dei linguaggi di markup per esprimere le emozioni}
+Il gruppo ha richiesto quale linguaggio di markup utilizzare per l' espressione 
+dei sentimenti: il referente Giulio Paci ha consigliato l'uso del linguaggio 
+SSML\G, meno potente rispetto a Emotionml\G, ma ben supportato dal motore FA-TTS\G.
+
+\subsection{Tecniche grafiche consigliate per migliorare l'accessibilità su dispositivi mobili}
+Durante una discussione nata a proposito di possibili interfacce da implementare su mobile, il referente Giulio Paci ha presentato al gruppo una pagina \textit{web} provvisoria che \AZIENDA\ sta sviluppando per migliorare la modifica e l'inserimento degli effetti da applicare a una voce. Il servizio è disponibile al seguente link:\\
+\centerline{\url{https://www.mivoq.it/ttsdemo}} \\
+L'adozione di \textit{slider}\G\ per la gestione delle impostazioni può essere considerata come una fra le possibilità per migliorare l'accessibilità lato utente. Il gruppo ha pertanto preso in considerazione l'opportunità di strutturare l'interfaccia su mobile con un'impostazione grafica simile.
+
+\subsection{Istruzioni per installazione e uso}
+Il referente Giulio Paci ha spiegato il procedimento necessario all'installazione del motore FA-TTS\G\ su computer o macchina virtuale equipaggiate con sistema operativo 
+Debian\G\ o Ubuntu\G. Ha inoltre presentato le due API\G\ che il server Mivoq TTS HTTP implementa:
+\begin{itemize}
+\item La FA-TTS interface, ancora in fase di sviluppo;
+\item La original Mary TTS interface. 
+\end{itemize}
+La documentazioni delle API\G\  presentate è disponibile presso il seguente link\\
+\centerline{\url{http://fic2fatts.tts.mivoq.it/documentation.html}} \\ 
+Infine sono stati discussi i diversi parametri necessari a ottenere un effetto vocale.
+
+\newpage
+
